@@ -1,0 +1,56 @@
+name: Convert Hosts to Mihomo Rules
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: 
+
+jobs:
+  convert-hosts:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Download hosts file
+      run: curl -o StevenBlack_hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+    - name: Convert hosts to Mihomo rules
+      run: |
+        python3 - <<EOF
+        import re
+
+        def parse_hosts_to_mrs(hosts_file, output_file):
+            with open(hosts_file, 'r') as f:
+                lines = f.readlines()
+
+            rules = []
+            for line in lines:
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3})\s+(.+)$', line)
+                if match:
+                    _, domain = match.groups()
+                    if domain.startswith('www.'):
+                        domain_suffix = domain[4:]
+                        rules.append(f"  - DOMAIN-SUFFIX,{domain_suffix},REJECT")
+                    else:
+                        rules.append(f"  - DOMAIN,{domain},REJECT")
+
+            with open(output_file, 'w') as f:
+                f.write("rules:\n")
+                f.writelines("\n".join(rules))
+                f.write("\n")
+
+        parse_hosts_to_mrs('StevenBlack_hosts', 'StevenBlack.mrs')
+        EOF
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git add StevenBlack.mrs
+        current_date=$(date +'%Y-%m-%d')
+        git commit -m "Update Mihomo rules from hosts file on $current_date"
+        git push
