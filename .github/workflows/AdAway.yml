@@ -62,13 +62,10 @@ jobs:
                     if (ip, domain) not in filter_entries:
                         rules.append(f"  - DOMAIN,{domain}")
         
-            if rules:
-                with open(output_file, 'w') as f:
-                    f.write("payload:\n")
-                    f.writelines("\n".join(rules))
-                    f.write("\n")
-            else:
-                print("No valid rules to write to the output file.")
+            with open(output_file, 'w') as f:
+                f.write("payload:\n")
+                f.writelines("\n".join(rules))
+                f.write("\n")
         
         parse_hosts_to_yaml('hosts.txt', 'hosts.yaml')
         EOF
