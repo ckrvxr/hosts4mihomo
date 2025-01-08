@@ -42,16 +42,15 @@ jobs:
       run: |
         python3 - <<EOF
         import re
-
         def parse_hosts_to_yaml(hosts_file, output_file):
             with open(hosts_file, 'r') as f:
                 lines = f.readlines()
-
-            filter_ips = {
-                '127.0.0.1', '255.255.255.255', '::1', 'fe80::1%lo0', 
-                'ff00::0', 'ff00::0', 'ff02::1', 'ff02::2', 'ff02::3', '0.0.0.0'
+                
+            filter_entries = {
+                ('127.0.0.1', 'localhost'),
+                ('::1', 'localhost')
             }
-
+        
             rules = []
             for line in lines:
                 line = line.strip()
@@ -60,15 +59,18 @@ jobs:
                 match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3}|[a-fA-F0-9:]+)\s+(.+)$', line)
                 if match:
                     ip, domain = match.groups()
-                    if ip not in filter_ips:
+                    if (ip, domain) not in filter_entries:
                         rules.append(f"  - DOMAIN,{domain}")
-
-            with open(output_file, 'w') as f:
-                f.write("payload:\n")
-                f.writelines("\n".join(rules))
-                f.write("\n")
-
-        parse_hosts_to_yaml('hosts', 'hosts.yaml')
+        
+            if rules:
+                with open(output_file, 'w') as f:
+                    f.write("payload:\n")
+                    f.writelines("\n".join(rules))
+                    f.write("\n")
+            else:
+                print("No valid rules to write to the output file.")
+        
+        parse_hosts_to_yaml('hosts.txt', 'hosts.yaml')
         EOF
 
     - name: Compile to Mihomo rules Binary
