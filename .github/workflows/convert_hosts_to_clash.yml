@@ -33,7 +33,7 @@ jobs:
                 match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3})\s+(.+)$', line)
                 if match:
                     _, domain = match.groups()
-                    rules.append(f"  - DOMAIN,{domain},REJECT")
+                    rules.append(f"  - DOMAIN,{domain}")
 
             with open(output_file, 'w') as f:
                 f.write("rules:\n")
