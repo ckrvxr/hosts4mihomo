@@ -54,4 +54,4 @@ jobs:
         git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
         git add StevenBlack.mrs
         git commit -m "Update Mihomo rules from hosts file"
-        git push
+        git push -f -u origin
