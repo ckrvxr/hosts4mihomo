@@ -67,7 +67,7 @@ jobs:
                 f.writelines("\n".join(rules))
                 f.write("\n")
         
-        parse_hosts_to_yaml('hosts.txt', 'hosts.yaml')
+        parse_hosts_to_yaml('hosts', 'hosts.yaml')
         EOF
 
     - name: Compile to Mihomo rules Binary
