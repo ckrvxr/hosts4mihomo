@@ -13,10 +13,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Download hosts file
-      run: curl -o StevenBlack_hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-
-    - name: Install mihomo
+    - name: Install Mihomo
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
@@ -38,14 +35,43 @@ jobs:
           rm -f ./mihomo.deb
         }
 
-    - name: Convert hosts to Mihomo rules
+    - name: Download hosts file
+      run: curl -o hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+    - name: Convert to Mihomo rules yaml
+      run: |
+        python3 - <<EOF
+        import re
+
+        def parse_hosts_to_yaml(hosts_file, output_file):
+            with open(hosts_file, 'r') as f:
+                lines = f.readlines()
+
+            rules = []
+            for line in lines:
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3})\s+(.+)$', line)
+                if match:
+                    _, domain = match.groups()
+                    rules.append(f"  - DOMAIN,{domain}")
+
+            with open(output_file, 'w') as f:
+                f.write("payload:\n")
+                f.writelines("\n".join(rules))
+                f.write("\n")
+
+        parse_hosts_to_yaml('hosts', 'hosts.yaml')
+        EOF
+
+    - name: Compile to Mihomo rules Binary
       run: |
         if [ "$(which mihomo 2>/dev/null)"x = 'x' ]; then
           echo 'mihomo not available.'
-          exit 1
         else
-          echo 'Converting hosts to Mihomo rules...'
-          mihomo convert-ruleset domain hosts ./StevenBlack_hosts ./StevenBlack.mrs
+          echo 'Compiling mihomo ruleset...'
+          mihomo convert-ruleset domain yaml ./hosts.yaml ./StevenBlack.mrs
           sha256sum ./StevenBlack.mrs
         fi
 
