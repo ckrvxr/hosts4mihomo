@@ -47,15 +47,21 @@ jobs:
             with open(hosts_file, 'r') as f:
                 lines = f.readlines()
 
+            filter_ips = {
+                '127.0.0.1', '255.255.255.255', '::1', 'fe80::1%lo0', 
+                'ff00::0', 'ff00::0', 'ff02::1', 'ff02::2', 'ff02::3', '0.0.0.0'
+            }
+
             rules = []
             for line in lines:
                 line = line.strip()
                 if not line or line.startswith('#'):
                     continue
-                match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3})\s+(.+)$', line)
+                match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3}|[a-fA-F0-9:]+)\s+(.+)$', line)
                 if match:
-                    _, domain = match.groups()
-                    rules.append(f"  - DOMAIN,{domain}")
+                    ip, domain = match.groups()
+                    if ip not in filter_ips:
+                        rules.append(f"  - DOMAIN,{domain}")
 
             with open(output_file, 'w') as f:
                 f.write("payload:\n")
