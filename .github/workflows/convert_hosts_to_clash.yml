@@ -56,5 +56,7 @@ jobs:
         if git diff --cached --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "Update Mihomo rules from hosts file"
+          current_date=$(date +'%Y-%m-%d')
+          git commit -m "Update Mihomo rules from hosts file on $current_date"
           git push
+        fi
