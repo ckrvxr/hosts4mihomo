@@ -2,8 +2,8 @@ name: Convert Hosts to Mihomo Rules
 
 on:
   schedule:
-    - cron: "0 22 * * *"
-  workflow_dispatch: 
+    - cron: "0 22 * * *"  # 北京时间 06:00 对应 UTC 时间 22:00
+  workflow_dispatch:
 
 jobs:
   convert-hosts:
@@ -16,32 +16,38 @@ jobs:
     - name: Download hosts file
       run: curl -o StevenBlack_hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
+    - name: Install mihomo
+      env:
+        DEBIAN_FRONTEND: noninteractive
+      run: |
+        case "$(uname -m)" in
+        'x86_64') ARCH='amd64' ;;
+        'x86' | 'i686' | 'i386') ARCH='386' ;;
+        'aarch64' | 'arm64') ARCH='arm64' ;;
+        'armv7l') ARCH='armv7' ;;
+        'riscv64') ARCH='riscv64' ;;
+        's390x') ARCH='s390x' ;;
+        *) ARCH='unknown' ;;
+        esac
+        echo "The architecture is: $ARCH"
+        [ "$ARCH" = 'unknown' ] || {
+          MIHOMO_VER=$(wget -q -O - 'https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt')
+          MIHOMO_URL='https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-linux-'$ARCH'-'$MIHOMO_VER'.deb'
+          wget -q -O ./mihomo.deb "$MIHOMO_URL"
+          sudo apt-get install ./mihomo.deb
+          rm -f ./mihomo.deb
+        }
+
     - name: Convert hosts to Mihomo rules
       run: |
-        python3 - <<EOF
-        import re
-
-        def parse_hosts_to_mrs(hosts_file, output_file):
-            with open(hosts_file, 'r') as f:
-                lines = f.readlines()
-
-            rules = []
-            for line in lines:
-                line = line.strip()
-                if not line or line.startswith('#'):
-                    continue
-                match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3})\s+(.+)$', line)
-                if match:
-                    _, domain = match.groups()
-                    rules.append(f"  - DOMAIN,{domain}")
-
-            with open(output_file, 'w') as f:
-                f.write("rules:\n")
-                f.writelines("\n".join(rules))
-                f.write("\n")
-
-        parse_hosts_to_mrs('StevenBlack_hosts', 'StevenBlack.mrs')
-        EOF
+        if [ "$(which mihomo 2>/dev/null)"x = 'x' ]; then
+          echo 'mihomo not available.'
+          exit 1
+        else
+          echo 'Converting hosts to Mihomo rules...'
+          mihomo convert-ruleset domain hosts ./StevenBlack_hosts ./StevenBlack.mrs
+          sha256sum ./StevenBlack.mrs
+        fi
 
     - name: Commit and push changes
       run: |
