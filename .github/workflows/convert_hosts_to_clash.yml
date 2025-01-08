@@ -53,6 +53,5 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
         git add StevenBlack.mrs
-        current_date=$(date +'%Y-%m-%d')
-        git commit -m "Update Mihomo rules from hosts file on $current_date"
+        git commit -m "Update Mihomo rules from hosts file on ${{ env.BUILDTIME }}"
         git push
