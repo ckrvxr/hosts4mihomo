@@ -2,7 +2,7 @@ name: Convert Hosts to Mihomo Rules
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 22 * * *"
   workflow_dispatch: 
 
 jobs:
@@ -33,11 +33,7 @@ jobs:
                 match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3})\s+(.+)$', line)
                 if match:
                     _, domain = match.groups()
-                    if domain.startswith('www.'):
-                        domain_suffix = domain[4:]
-                        rules.append(f"  - DOMAIN-SUFFIX,{domain_suffix},REJECT")
-                    else:
-                        rules.append(f"  - DOMAIN,{domain},REJECT")
+                    rules.append(f"  - DOMAIN,{domain},REJECT")
 
             with open(output_file, 'w') as f:
                 f.write("rules:\n")
