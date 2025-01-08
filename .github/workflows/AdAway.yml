@@ -1,0 +1,90 @@
+name: AdAway
+
+on:
+  schedule:
+    - cron: "0 22 * * *"  # 北京时间 06:00 对应 UTC 时间 22:00
+  workflow_dispatch:
+
+jobs:
+  convert-hosts:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install Mihomo
+      env:
+        DEBIAN_FRONTEND: noninteractive
+      run: |
+        case "$(uname -m)" in
+        'x86_64') ARCH='amd64' ;;
+        'x86' | 'i686' | 'i386') ARCH='386' ;;
+        'aarch64' | 'arm64') ARCH='arm64' ;;
+        'armv7l') ARCH='armv7' ;;
+        'riscv64') ARCH='riscv64' ;;
+        's390x') ARCH='s390x' ;;
+        *) ARCH='unknown' ;;
+        esac
+        echo "The architecture is: $ARCH"
+        [ "$ARCH" = 'unknown' ] || {
+          MIHOMO_VER=$(wget -q -O - 'https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt')
+          MIHOMO_URL='https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-linux-'$ARCH'-'$MIHOMO_VER'.deb'
+          wget -q -O ./mihomo.deb "$MIHOMO_URL"
+          sudo apt-get install ./mihomo.deb
+          rm -f ./mihomo.deb
+        }
+
+    - name: Download hosts file
+      run: curl -o hosts https://adaway.org/hosts.txt
+
+    - name: Convert to Mihomo rules yaml
+      run: |
+        python3 - <<EOF
+        import re
+
+        def parse_hosts_to_yaml(hosts_file, output_file):
+            with open(hosts_file, 'r') as f:
+                lines = f.readlines()
+
+            rules = []
+            for line in lines:
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3})\s+(.+)$', line)
+                if match:
+                    _, domain = match.groups()
+                    rules.append(f"  - DOMAIN,{domain}")
+
+            with open(output_file, 'w') as f:
+                f.write("payload:\n")
+                f.writelines("\n".join(rules))
+                f.write("\n")
+
+        parse_hosts_to_yaml('hosts', 'hosts.yaml')
+        EOF
+
+    - name: Compile to Mihomo rules Binary
+      run: |
+        if [ "$(which mihomo 2>/dev/null)"x = 'x' ]; then
+          echo 'mihomo not available.'
+        else
+          echo 'Compiling mihomo ruleset...'
+          mihomo convert-ruleset domain yaml ./hosts.yaml ./AdAway.mrs
+          sha256sum ./AdAway.mrs
+        fi
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+        git add AdAway.mrs
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          current_date=$(date +'%Y-%m-%d')
+          git commit -m "Update Mihomo rules from hosts file on $current_date"
+          git push
+        fi
