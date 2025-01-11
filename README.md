@@ -9,11 +9,11 @@ Typically, only one needs to be selected. StevenBlack is used here.
 ```yaml
 rule-providers:
   stevenblack:
-  type: http
-  behavior: domain
-  format: mrs
-  interval: 43200
-  url: "https://testingcf.jsdelivr.net/gh/ckrvxr/hosts4mihomo@main/rules/StevenBlack.mrs"
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 43200
+    url: "https://testingcf.jsdelivr.net/gh/ckrvxr/hosts4mihomo@main/rules/StevenBlack.mrs"
 
 ```
 
