@@ -42,10 +42,10 @@ jobs:
       run: |
         python3 - <<EOF
         import re
-        def parse_hosts_to_yaml(hosts_file, output_file):
+        def convert_hosts_to_yaml(hosts_file, output_file):
             with open(hosts_file, 'r') as f:
                 lines = f.readlines()
-                
+
             filter_entries = {
                 ('127.0.0.1', 'localhost'),
                 ('127.0.0.1', 'localhost.localdomain'),
@@ -62,7 +62,7 @@ jobs:
                 ('ff02::3', 'ip6-allhosts'),
                 ('0.0.0.0', '0.0.0.0')
             }
-        
+
             rules = []
             for line in lines:
                 line = line.strip()
@@ -73,34 +73,41 @@ jobs:
                     ip, domain = match.groups()
                     if (ip, domain) not in filter_entries:
                         rules.append(f"  - DOMAIN,{domain}")
-        
+
             with open(output_file, 'w') as f:
                 f.write("payload:\n")
                 f.writelines("\n".join(rules))
                 f.write("\n")
-        parse_hosts_to_yaml('hosts', 'hosts.yaml')
+        convert_hosts_to_yaml('hosts', 'yaml')
         EOF
-        
+
     - name: Compile to Mihomo rules Binary
       run: |
         if [ "$(which mihomo 2>/dev/null)"x = 'x' ]; then
           echo 'mihomo not available.'
         else
           echo 'Compiling mihomo ruleset...'
-          mihomo convert-ruleset domain yaml ./hosts.yaml ./StevenBlack.mrs
-          sha256sum ./StevenBlack.mrs
+          mihomo convert-ruleset domain yaml ./yaml ./mrs
         fi
+
+    - name: Create rules directory if not exists
+      run: mkdir -p rules
+
+    - name: Copy files to rules directory
+      run: |
+        cp yaml rules/StevenBlack.yaml
+        cp mrs rules/StevenBlack.mrs
 
     - name: Commit and push changes
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-        git add StevenBlack.mrs
+        git add rules/StevenBlack.yaml rules/StevenBlack.mrs
         if git diff --cached --quiet; then
           echo "No changes to commit"
         else
           current_date=$(date +'%Y-%m-%d')
-          git commit -m "Update Mihomo rules from hosts file on $current_date"
+          git commit -m "Update Mihomo rules from hosts file on $current_date" -m "Update Mihomo rules from hosts file on $current_date"
           git push
         fi
