@@ -26,6 +26,5 @@ rules:
 
 (testingcf.jsdelivr.net) (目前中国大陆地区可直连)
 
-* AdAway :  https://testingcf.jsdelivr.net/gh/ckrvxr/hosts4mihomo@main/AdAway​.mrs
 * StevenBlack:  https://testingcf.jsdelivr.net/gh/ckrvxr/hosts4mihomo@main/StevenBlack.mrs
 * hBlock :  https://testingcf.jsdelivr.net/gh/ckrvxr/hosts4mihomo@main/hBlock.mrs
