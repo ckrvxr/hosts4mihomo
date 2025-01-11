@@ -1,6 +1,6 @@
 # hosts4mihomo
 
-This project retrieves the hosts file from the source at 6 AM in Beijing every day to create the binary rule file for mihomo (mrs).
+This project retrieves the hosts file from the source at 6 AM in Beijing time every day to convert to the binary rule file for mihomo (mrs,yaml).
 
 ### Example:
 
