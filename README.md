@@ -13,7 +13,7 @@ rule-providers:
   behavior: domain
   format: mrs
   interval: 43200
-  url: "https://testingcf.jsdelivr.net/gh/ckrvxr/hosts4mihomo@main/StevenBlack.mrs"
+  url: "https://testingcf.jsdelivr.net/gh/ckrvxr/hosts4mihomo@main/rules/StevenBlack.mrs"
 
 ```
 
@@ -26,5 +26,5 @@ rules:
 
 (testingcf.jsdelivr.net) (目前中国大陆地区可直连)
 
-* StevenBlack:  https://testingcf.jsdelivr.net/gh/ckrvxr/hosts4mihomo@main/StevenBlack.mrs
-* hBlock :  https://testingcf.jsdelivr.net/gh/ckrvxr/hosts4mihomo@main/hBlock.mrs
+* StevenBlack:  https://testingcf.jsdelivr.net/gh/ckrvxr/hosts4mihomo@main/rules/StevenBlack.mrs
+* hBlock :  https://testingcf.jsdelivr.net/gh/ckrvxr/hosts4mihomo@main/rules/hBlock.mrs

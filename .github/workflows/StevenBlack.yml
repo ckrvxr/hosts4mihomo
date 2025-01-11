@@ -108,6 +108,6 @@ jobs:
           echo "No changes to commit"
         else
           current_date=$(date +'%Y-%m-%d')
-          git commit -m "Update Mihomo rules from hosts file on $current_date" -m "Update Mihomo rules from hosts file on $current_date"
+          git commit -m "Update rules from source on $current_date" -m "Update rules from source on $current_date"
           git push
         fi
