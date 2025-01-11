@@ -19,9 +19,7 @@ rule-providers:
 
 ```yaml
 rules:
-  - ...
-  - 'RULE-SET,stevenblack,AD & Privacy'
-  - ...
+  - 'RULE-SET,stevenblack,REJECT'
 ```
 
 ### CDN Links:
