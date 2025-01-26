@@ -2,7 +2,7 @@ name: StevenBlack
 
 on:
   schedule:
-    - cron: "0 22 * * *"  # 北京时间 06:00 对应 UTC 时间 22:00
+    - cron: "0 22 * * *"
   workflow_dispatch:
 
 jobs:
