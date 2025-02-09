@@ -1754,7 +1754,7 @@ payload:
   - DOMAIN,blog.eduelects.com
   - DOMAIN,cdn.mirror-codes.net
   - DOMAIN,status.sublineover.net
-  - DOMAIN,docs.pipenv.org # https://github.com/StevenBlack/hosts/issues/1635
+  - DOMAIN,docs.pipenv.org
   - DOMAIN,a9v8.cn
   - DOMAIN,config.unityads.unitychina.cn
   - DOMAIN,cu-cn-north00001.gala.convection.cn
@@ -1773,13 +1773,13 @@ payload:
   - DOMAIN,urgente.eu
   - DOMAIN,localbestdating1.com
   - DOMAIN,sylviagreen.club
-  - DOMAIN,xvtelink.com # ads with redirects
-  - DOMAIN,invol.co # tracking
-  - DOMAIN,36c4.net # redirect to go.trafficrouter.io
+  - DOMAIN,xvtelink.com
+  - DOMAIN,invol.co
+  - DOMAIN,36c4.net
   - DOMAIN,go.trafficrouter.io
-  - DOMAIN,track.venatusmedia.com # tracking
-  - DOMAIN,amptrack.dailymail.co.uk # tracking
-  - DOMAIN,mailmetromedia.amp.permutive.com #ad
+  - DOMAIN,track.venatusmedia.com
+  - DOMAIN,amptrack.dailymail.co.uk
+  - DOMAIN,mailmetromedia.amp.permutive.com
   - DOMAIN,mc.speakol.com
   - DOMAIN,rd.speakol.com
   - DOMAIN,inline.speakol.com
@@ -100113,7 +100113,7 @@ payload:
   - DOMAIN,s.adframesrc.com
   - DOMAIN,media.adfrontiers.com
   - DOMAIN,www.adgitize.com
-  - DOMAIN,www.ad-groups.com #[Ban Man Pro Banner Code]
+  - DOMAIN,www.ad-groups.com
   - DOMAIN,adhall.com
   - DOMAIN,aj.adjungle.com
   - DOMAIN,adserver-e7.com
@@ -100123,7 +100123,7 @@ payload:
   - DOMAIN,cdn.admixer.net
   - DOMAIN,run.admost.com
   - DOMAIN,ads.adnet.am
-  - DOMAIN,ad.adnet.biz #[Tracking.Cookie]
+  - DOMAIN,ad.adnet.biz
   - DOMAIN,adnet.com.ua
   - DOMAIN,www.ad-net.co.uk
   - DOMAIN,srv.adngin.com
@@ -100172,7 +100172,7 @@ payload:
   - DOMAIN,web1.affiliatelounge.com
   - DOMAIN,ads.afraccess.com
   - DOMAIN,stats.agentinteractive.com
-  - DOMAIN,ac.ajur.info #[WebBug]
+  - DOMAIN,ac.ajur.info
   - DOMAIN,openx.ajur.info
   - DOMAIN,adlik2.akavita.com
   - DOMAIN,spotxchange-a.akamaihd.net
@@ -100249,7 +100249,7 @@ payload:
   - DOMAIN,adserver.bloodhorse.com
   - DOMAIN,watershed.bm23.com
   - DOMAIN,t.bmmetrix.com
-  - DOMAIN,www.bmmetrix.com #[WebBug][Tracking.Cookie]
+  - DOMAIN,www.bmmetrix.com
   - DOMAIN,ads.boardtracker.com
   - DOMAIN,ranks.boardtracker.com
   - DOMAIN,ads.boerse-express.com
@@ -100257,8 +100257,8 @@ payload:
   - DOMAIN,tracker.brainsins.com
   - DOMAIN,ads.bridgetrack.com
   - DOMAIN,cc.bridgetrack.com
-  - DOMAIN,citi.bridgetrack.com #[Tracking.Cookie]
-  - DOMAIN,goku.brightcove.com #[WebBug]
+  - DOMAIN,citi.bridgetrack.com
+  - DOMAIN,goku.brightcove.com
   - DOMAIN,ads.bsplayer.com
   - DOMAIN,ads.businessclick.com
   - DOMAIN,buylicensekey.com
@@ -100280,8 +100280,8 @@ payload:
   - DOMAIN,cdn.carbonads.com
   - DOMAIN,srv.carbonads.net
   - DOMAIN,ads.cars.com
-  - DOMAIN,www.casinotropez.com #[Tracking.Cookie]
-  - DOMAIN,tracking.cdiscount.com #[WebBug]
+  - DOMAIN,www.casinotropez.com
+  - DOMAIN,tracking.cdiscount.com
   - DOMAIN,cn.ecritel.bench.cedexis.com
   - DOMAIN,radar.cedexis.com
   - DOMAIN,t.cfjump.com
@@ -100293,7 +100293,7 @@ payload:
   - DOMAIN,clevernt.com
   - DOMAIN,are.clevernt.com
   - DOMAIN,cdn.clic2pub.com
-  - DOMAIN,publishers.clickbooth.com #[directleads.com]
+  - DOMAIN,publishers.clickbooth.com
   - DOMAIN,j.clickdensity.com
   - DOMAIN,r.clickdensity.com
   - DOMAIN,tracktrue.clicktrue.biz
@@ -100306,7 +100306,7 @@ payload:
   - DOMAIN,traffic.prod.cobaltgroup.com
   - DOMAIN,pixel.condenastdigital.com
   - DOMAIN,ads.consumeraffairs.com
-  - DOMAIN,ads.contactmusic.com #[AdvertPro]
+  - DOMAIN,ads.contactmusic.com
   - DOMAIN,ads.contextweb.com
   - DOMAIN,ds.contextweb.com
   - DOMAIN,www.contaxe.com
@@ -100315,7 +100315,7 @@ payload:
   - DOMAIN,ad2.cooks.com
   - DOMAIN,banners.copyscape.com
   - DOMAIN,data.de.coremetrics.com
-  - DOMAIN,www.counter-gratis.com #[Tracking.Cookie]
+  - DOMAIN,www.counter-gratis.com
   - DOMAIN,cdn.dmpcounter.com
   - DOMAIN,connectionzone.com
   - DOMAIN,banner.coza.com
@@ -100331,7 +100331,7 @@ payload:
   - DOMAIN,ads.milliyet.cubecdn.net
   - DOMAIN,www.cybereps.com
   - DOMAIN,count.daem0n.com
-  - DOMAIN,www.dataforce.net #[Spamdexing]
+  - DOMAIN,www.dataforce.net
   - DOMAIN,advertising.dclux.com
   - DOMAIN,tracking.dc-storm.com
   - DOMAIN,de17a.com
@@ -100347,7 +100347,7 @@ payload:
   - DOMAIN,vstats.digitaltrends.com
   - DOMAIN,www.direct-stats.com
   - DOMAIN,disqusads.com
-  - DOMAIN,return.domainnamesales.com #[Parking.Service]
+  - DOMAIN,return.domainnamesales.com
   - DOMAIN,publishers.domainadvertising.com
   - DOMAIN,return.bs.domainnamesales.com
   - DOMAIN,ad.donanimhaber.com
@@ -100371,13 +100371,13 @@ payload:
   - DOMAIN,ads.eccentrix.com
   - DOMAIN,c.ecliks.com
   - DOMAIN,ad.ecplaza.net
-  - DOMAIN,ads.ecrush.com #[AdvertPro]
+  - DOMAIN,ads.ecrush.com
   - DOMAIN,ads.bridgetrack.com.edgesuite.net
   - DOMAIN,images.edgeads.org
   - DOMAIN,servedby.edgeads.org
   - DOMAIN,pk-cdn.effectivemeasure.net
   - DOMAIN,th-cdn.effectivemeasure.net
-  - DOMAIN,eisenstein.dk #[tracking.ping]
+  - DOMAIN,eisenstein.dk
   - DOMAIN,global.ekmpinpoint.com
   - DOMAIN,ads.elmaz.com
   - DOMAIN,ads.elitetrader.com
@@ -100391,7 +100391,7 @@ payload:
   - DOMAIN,publicidad.entelchile.net
   - DOMAIN,sa.entireweb.com
   - DOMAIN,entk.net
-  - DOMAIN,e-marketing.entelchile.net #[RealMedia]
+  - DOMAIN,e-marketing.entelchile.net
   - DOMAIN,ads.e-planning.net
   - DOMAIN,code.etracker.com
   - DOMAIN,ads.ere.net
@@ -100402,14 +100402,14 @@ payload:
   - DOMAIN,venetian.evyy.net
   - DOMAIN,www.exchangead.com
   - DOMAIN,ads.expekt.com
-  - DOMAIN,www.experclick.com #[Tracking.Cookie]
+  - DOMAIN,www.experclick.com
   - DOMAIN,expo-max.com
   - DOMAIN,expired-targeted.com
   - DOMAIN,resources.eyereturn.com
   - DOMAIN,1278725189.pub.ezanga.com
   - DOMAIN,st.fanatics.com
   - DOMAIN,a.farlex.com
-  - DOMAIN,fashion-tube.be #[Win32/InstallMonetizer.AN]
+  - DOMAIN,fashion-tube.be
   - DOMAIN,fastonlineusers.com
   - DOMAIN,counter.fateback.com
   - DOMAIN,counter1.fc2.com
@@ -100455,7 +100455,7 @@ payload:
   - DOMAIN,adserving.fyi-marketing.com
   - DOMAIN,errdoc.gabia.net
   - DOMAIN,ads.garga.biz
-  - DOMAIN,track.gawker.com #[WebBug]
+  - DOMAIN,track.gawker.com
   - DOMAIN,geoip-db.com
   - DOMAIN,adv.gepime.com
   - DOMAIN,getrank.net
@@ -100479,7 +100479,7 @@ payload:
   - DOMAIN,cdn.gumgum.com
   - DOMAIN,beacon.gutefrage.net
   - DOMAIN,adserver.hardwareanalysis.com
-  - DOMAIN,stats.berkman.harvard.edu #[Piwik.Analytics]
+  - DOMAIN,stats.berkman.harvard.edu
   - DOMAIN,ads.haskovo.net
   - DOMAIN,ad0.haynet.com
   - DOMAIN,ads.hearstmags.com
@@ -100508,7 +100508,7 @@ payload:
   - DOMAIN,ads2000.hw.net
   - DOMAIN,dserver.hw.net
   - DOMAIN,www.hxtrack.com
-  - DOMAIN,www.hypertracker.com #[Tracking.Cookie]
+  - DOMAIN,www.hypertracker.com
   - DOMAIN,ev.ib-ibi.com
   - DOMAIN,bbcdn-bbnaut.ibillboard.com
   - DOMAIN,bbcdn-tag.ibillboard.com
@@ -100517,10 +100517,10 @@ payload:
   - DOMAIN,adsrv2.ihlassondakika.com
   - DOMAIN,ads.imarketservices.com
   - DOMAIN,ads.imeem.com
-  - DOMAIN,stats.immense.net #[Piwik.Analytics]
+  - DOMAIN,stats.immense.net
   - DOMAIN,ads.imguol.com
   - DOMAIN,affiliate.imperiaonline.org
-  - DOMAIN,x.imwx.com #[content.pulse360.com]
+  - DOMAIN,x.imwx.com
   - DOMAIN,adbox.inbox-online.com
   - DOMAIN,optimize.indieclick.com
   - DOMAIN,aff.indirdik.com
@@ -100549,9 +100549,9 @@ payload:
   - DOMAIN,adshow.it168.com
   - DOMAIN,stat.it168.com
   - DOMAIN,itcompany.com
-  - DOMAIN,www.itcompany.com #[Riskware/PUP]
+  - DOMAIN,www.itcompany.com
   - DOMAIN,stats.itweb.co.za
-  - DOMAIN,link.ixs1.net #[WebBug]
+  - DOMAIN,link.ixs1.net
   - DOMAIN,ad.jamster.com
   - DOMAIN,ad.janalta.com
   - DOMAIN,adserver.janesguide.com
@@ -100610,7 +100610,7 @@ payload:
   - DOMAIN,r.looksmart.com
   - DOMAIN,banners.lottoelite.com
   - DOMAIN,ad.m5prod.net
-  - DOMAIN,www3.macys.com #[WebBug.eluminate]
+  - DOMAIN,www3.macys.com
   - DOMAIN,eu2.madsone.com
   - DOMAIN,www.mainadv.com
   - DOMAIN,ads.maleflixxx.tv
@@ -100621,16 +100621,16 @@ payload:
   - DOMAIN,ads.affiliates.match.com
   - DOMAIN,mbn.com.ua
   - DOMAIN,ads.mcafee.com
-  - DOMAIN,directads.mcafee.com #[Tracking.Cookie]
+  - DOMAIN,directads.mcafee.com
   - DOMAIN,piwik.medienhaus.com
   - DOMAIN,webtrekk.mediaset.net
   - DOMAIN,search.mediatarget.com
   - DOMAIN,app.medyanetads.com
   - DOMAIN,openx.mercatormedia.com
-  - DOMAIN,www.messagetag.com #[Email tracker]
+  - DOMAIN,www.messagetag.com
   - DOMAIN,action.metaffiliation.com
   - DOMAIN,www.metavertising.com
-  - DOMAIN,pubs.mgn.net #[Grolier Network]
+  - DOMAIN,pubs.mgn.net
   - DOMAIN,ads.miarroba.com
   - DOMAIN,counter.mirohost.net
   - DOMAIN,www.mktrack.com
@@ -100643,11 +100643,11 @@ payload:
   - DOMAIN,mein.monster.de
   - DOMAIN,cookie.monster.com
   - DOMAIN,www.mongoosemetrics.com
-  - DOMAIN,piwik.mortgageloan.com #[Piwik.Analytics]
+  - DOMAIN,piwik.mortgageloan.com
   - DOMAIN,webstats.motigo.com
   - DOMAIN,m1.webstats.motigo.com
   - DOMAIN,www1.mpnrs.com
-  - DOMAIN,msgtag.com #[Email tracker]
+  - DOMAIN,msgtag.com
   - DOMAIN,img.msgtag.com
   - DOMAIN,www.msgtag.com
   - DOMAIN,get.mycounter.ua
@@ -100663,7 +100663,7 @@ payload:
   - DOMAIN,xml.nbcsearch.com
   - DOMAIN,xml2.nbcsearch.com
   - DOMAIN,ads.ncm.com
-  - DOMAIN,ndparking.com #[Parking Service]
+  - DOMAIN,ndparking.com
   - DOMAIN,www.ndparking.com
   - DOMAIN,adlev.neodatagroup.com
   - DOMAIN,netclickstats.com
@@ -100671,7 +100671,7 @@ payload:
   - DOMAIN,hits.netgeography.net
   - DOMAIN,ad.netgoo.com
   - DOMAIN,ads.ads.netlog.com
-  - DOMAIN,pool.ads.netlog.com #[adhese.com]
+  - DOMAIN,pool.ads.netlog.com
   - DOMAIN,nl-moneyou.netmining.com
   - DOMAIN,nl-saab.netmining.com
   - DOMAIN,bkrntr.netmng.com
@@ -100687,13 +100687,13 @@ payload:
   - DOMAIN,ngastatic.com
   - DOMAIN,ads.nordichardware.com
   - DOMAIN,ads.novsport.com
-  - DOMAIN,ntlligent.info #[Spamdexing]
+  - DOMAIN,ntlligent.info
   - DOMAIN,ad.ntvmsnbc.com
   - DOMAIN,ntweb.org
   - DOMAIN,nxtck.com
   - DOMAIN,p.nxtck.com
   - DOMAIN,ads.nyi.net
-  - DOMAIN,www18.officedepot.com #[WebBug.eluminate]
+  - DOMAIN,www18.officedepot.com
   - DOMAIN,ads.ogdenpubs.com
   - DOMAIN,ads.olx.com
   - DOMAIN,logo.onlinewebstat.com
@@ -100701,7 +100701,7 @@ payload:
   - DOMAIN,www.on2url.com
   - DOMAIN,ads.oneplace.com
   - DOMAIN,stat.onestat.com
-  - DOMAIN,www.onestat.com #[Tracking.Cookie]
+  - DOMAIN,www.onestat.com
   - DOMAIN,www.onestatfree.com
   - DOMAIN,404.online.net
   - DOMAIN,sayac.onlinewebstats.com
@@ -100713,20 +100713,20 @@ payload:
   - DOMAIN,otracking.com
   - DOMAIN,pub.oxado.com
   - DOMAIN,www.pagerank10.co.uk
-  - DOMAIN,parkingcrew.net #[Parking.Service]
+  - DOMAIN,parkingcrew.net
   - DOMAIN,www.parkingcrew.net
   - DOMAIN,paidstats.com
   - DOMAIN,ad1.pamedia.com.au
-  - DOMAIN,img.parked.ru #[Parking Service]
+  - DOMAIN,img.parked.ru
   - DOMAIN,park.parkingpanel.com
   - DOMAIN,www.partner-ads.com
-  - DOMAIN,stats.partypoker.com #[WebBug]
+  - DOMAIN,stats.partypoker.com
   - DOMAIN,stat.pchome.net
   - DOMAIN,catrg.peer39.net
   - DOMAIN,pt.peerius.com
   - DOMAIN,b1.perfb.com
   - DOMAIN,count.pcpop.com
-  - DOMAIN,pixel.pcworld.com #[WebBug]
+  - DOMAIN,pixel.pcworld.com
   - DOMAIN,ads.periodistadigital.com
   - DOMAIN,ads.persgroep.net
   - DOMAIN,pgssl.com
@@ -100739,7 +100739,7 @@ payload:
   - DOMAIN,pu.plugrush.com
   - DOMAIN,webstats.plus.net
   - DOMAIN,ads.po-zdravidnes.com
-  - DOMAIN,piwik.pokerlistings.com #[Piwik.Analytics]
+  - DOMAIN,piwik.pokerlistings.com
   - DOMAIN,adserve.podaddies.com
   - DOMAIN,www1.pollg.com
   - DOMAIN,www.pollmonkey.com
@@ -100753,7 +100753,7 @@ payload:
   - DOMAIN,porntraff.com
   - DOMAIN,prstats.postrelease.com
   - DOMAIN,www.predictad.com
-  - DOMAIN,ads.prisacom.com #[RealMedia]
+  - DOMAIN,ads.prisacom.com
   - DOMAIN,top.proext.com
   - DOMAIN,www.promobenef.com
   - DOMAIN,track.promptfile.com
@@ -100771,7 +100771,7 @@ payload:
   - DOMAIN,pl12258511.puhtml.com
   - DOMAIN,www.qbop.com
   - DOMAIN,e1.cdn.qnsr.com
-  - DOMAIN,l1.cdn.qnsr.com #[WebBug]
+  - DOMAIN,l1.cdn.qnsr.com
   - DOMAIN,qualityporn.biz
   - DOMAIN,siteinterceptco1.qualtrics.com
   - DOMAIN,tracking.quisma.com
@@ -100804,7 +100804,7 @@ payload:
   - DOMAIN,rem.rezonmedia.eu
   - DOMAIN,sync.rhythmxchange.com
   - DOMAIN,ads.ripoffreport.com
-  - DOMAIN,db.riskwaters.com #[WebTrends]
+  - DOMAIN,db.riskwaters.com
   - DOMAIN,mct.rkdms.com
   - DOMAIN,sr.rlcdn.com
   - DOMAIN,ro2.biz
@@ -100821,7 +100821,7 @@ payload:
   - DOMAIN,s4le.net
   - DOMAIN,dt.scanscout.com
   - DOMAIN,media.scanscout.com
-  - DOMAIN,static.scanscout.com #[Video.adpresentation]
+  - DOMAIN,static.scanscout.com
   - DOMAIN,a1.seadform.net
   - DOMAIN,ad.searchhound.com
   - DOMAIN,tracking.searchmarketing.com
@@ -100837,10 +100837,10 @@ payload:
   - DOMAIN,logs.sexy-parade.com
   - DOMAIN,sdc.shawinc.com
   - DOMAIN,adserve.shopzilla.com
-  - DOMAIN,dc.sify.com #[WebTrends]
+  - DOMAIN,dc.sify.com
   - DOMAIN,sinuatemedia.com
-  - DOMAIN,goska.siol.net #[RealMedia]
-  - DOMAIN,domainpark.sitelutions.com #[Parking Service]
+  - DOMAIN,goska.siol.net
+  - DOMAIN,domainpark.sitelutions.com
   - DOMAIN,www.sitestatslive.com
   - DOMAIN,eon.tags.sitetagger.co.uk
   - DOMAIN,www.sitetagger.co.uk
@@ -100855,7 +100855,7 @@ payload:
   - DOMAIN,eu1.snoobi.com
   - DOMAIN,l.socialsexnetwork.net
   - DOMAIN,ivox.socratos.net
-  - DOMAIN,analytic.spamfighter.com #[Omniture]
+  - DOMAIN,analytic.spamfighter.com
   - DOMAIN,tags.spider-mails.com
   - DOMAIN,dp2.specificclick.net
   - DOMAIN,js.spotx.tv
@@ -100883,7 +100883,7 @@ payload:
   - DOMAIN,adtag.sympatico.ca
   - DOMAIN,tracking.synthasite.net
   - DOMAIN,www.t-analytics.com
-  - DOMAIN,www.tag4arm.com #[Piwik.Analytics]
+  - DOMAIN,www.tag4arm.com
   - DOMAIN,ads.tahono.com
   - DOMAIN,files.tailsweep.com
   - DOMAIN,script.tailsweep.com
@@ -100939,7 +100939,7 @@ payload:
   - DOMAIN,media2.travelzoo.com
   - DOMAIN,advert.travlang.com
   - DOMAIN,cdna.tremormedia.com
-  - DOMAIN,objects.tremormedia.com #[adserver.adtechus.com]
+  - DOMAIN,objects.tremormedia.com
   - DOMAIN,www.trendcounter.com
   - DOMAIN,ads.tripican.com
   - DOMAIN,hits3.truehits.net
@@ -100962,7 +100962,7 @@ payload:
   - DOMAIN,ukrbanner.net
   - DOMAIN,tracking.ukwm.co.uk
   - DOMAIN,www.ultimatetopsites.com
-  - DOMAIN,undertonenetworks.com #[zedo.com]
+  - DOMAIN,undertonenetworks.com
   - DOMAIN,www.undertonenetworks.com
   - DOMAIN,adserving.unibet.com
   - DOMAIN,ads.univision.com
@@ -100970,15 +100970,15 @@ payload:
   - DOMAIN,www.upsellit.com
   - DOMAIN,c.uarating.com
   - DOMAIN,usachoice.net
-  - DOMAIN,data.nal.usda.gov #[Universal Federated Analytics]
+  - DOMAIN,data.nal.usda.gov
   - DOMAIN,analytics.usdm.net
   - DOMAIN,tag.userreport.com
   - DOMAIN,www.usenetjunction.com
   - DOMAIN,ads.usercash.com
-  - DOMAIN,www.utarget.co.uk #[utarget Ad code]
+  - DOMAIN,www.utarget.co.uk
   - DOMAIN,ads.vador.com
   - DOMAIN,feed.validclick.com
-  - DOMAIN,ad.jp.ap.valuecommerce.com #[WebBug]
+  - DOMAIN,ad.jp.ap.valuecommerce.com
   - DOMAIN,counters.vendio.com
   - DOMAIN,cdsusa.veinteractive.com
   - DOMAIN,config1.veinteractive.com
@@ -100995,7 +100995,7 @@ payload:
   - DOMAIN,adserver.virginmedia.com
   - DOMAIN,sniff.visistat.com
   - DOMAIN,code.visitor-track.com
-  - DOMAIN,www.visitor-track.com #[WebBug]
+  - DOMAIN,www.visitor-track.com
   - DOMAIN,www.visitortracklog.com
   - DOMAIN,optimized.by.vitalads.net
   - DOMAIN,optimized-by.vitalads.net
@@ -101021,7 +101021,7 @@ payload:
   - DOMAIN,serve.williamhill.com
   - DOMAIN,banner-server.winecountry.com
   - DOMAIN,ads.wineenthusiast.com
-  - DOMAIN,api.wipmania.com #[affects WorldIP]
+  - DOMAIN,api.wipmania.com
   - DOMAIN,stats.wired.com
   - DOMAIN,helper-stats.wondershare.com
   - DOMAIN,phpadsnew.wn.com
@@ -101030,7 +101030,7 @@ payload:
   - DOMAIN,w00tpublishers.wootmedia.net
   - DOMAIN,links.worldbannerexchange.com
   - DOMAIN,ads.worldstarhiphop.com
-  - DOMAIN,wtsdc.worldnow.com #[WebTrends]
+  - DOMAIN,wtsdc.worldnow.com
   - DOMAIN,ads.worthplaying.com
   - DOMAIN,beacon.thred.woven.com
   - DOMAIN,ad.wsod.com
@@ -101131,16 +101131,16 @@ payload:
   - DOMAIN,mtree.com
   - DOMAIN,mt1.mtree.com
   - DOMAIN,mt2.mtree.com
-  - DOMAIN,mt4.mtree.com #[xxxtoolbar.com]
+  - DOMAIN,mt4.mtree.com
   - DOMAIN,mt10.mtree.com
   - DOMAIN,mt11.mtree.com
   - DOMAIN,mt12.mtree.com
   - DOMAIN,mt15.mtree.com
   - DOMAIN,mt32.mtree.com
-  - DOMAIN,mt34.mtree.com #[Google.Diagnostic]
+  - DOMAIN,mt34.mtree.com
   - DOMAIN,mt35.mtree.com
   - DOMAIN,mt37.mtree.com
-  - DOMAIN,mt55.mtree.com #[Troj/Istbar-BL]
+  - DOMAIN,mt55.mtree.com
   - DOMAIN,mt58.mtree.com
   - DOMAIN,mt83.mtree.com
   - DOMAIN,mt94.mtree.com
@@ -101148,19 +101148,19 @@ payload:
   - DOMAIN,mt113.mtree.com
   - DOMAIN,mt124.mtree.com
   - DOMAIN,mt127.mtree.com
-  - DOMAIN,porn.mtree.com #[Dialer.Moneytree]
+  - DOMAIN,porn.mtree.com
   - DOMAIN,psy.mtree.com
   - DOMAIN,ss.mtree.com
   - DOMAIN,the.mtree.com
   - DOMAIN,wm.mtree.com
-  - DOMAIN,xbs.mtree.com #[Troj/NSUpdate-A]
-  - DOMAIN,xbs.pao.mtree.com #[TROJ_DYFUCA.X]
-  - DOMAIN,xbs.sea.mtree.com #[MoneyTree Dialer]
+  - DOMAIN,xbs.mtree.com
+  - DOMAIN,xbs.pao.mtree.com
+  - DOMAIN,xbs.sea.mtree.com
   - DOMAIN,www.mtree.com
   - DOMAIN,dyn.naiadsystems.com
   - DOMAIN,www.naiadsystems.com
   - DOMAIN,cdn.nsimg.net
-  - DOMAIN,banners.outster.com #[Tracking.Cookie]
+  - DOMAIN,banners.outster.com
   - DOMAIN,c1.outster.com
   - DOMAIN,c2.outster.com
   - DOMAIN,c3.outster.com
@@ -101177,7 +101177,7 @@ payload:
   - DOMAIN,rr1.outster.com
   - DOMAIN,start.outster.com
   - DOMAIN,stats.outster.com
-  - DOMAIN,cgi.sexlist.com #[Tracking.Cookie]
+  - DOMAIN,cgi.sexlist.com
   - DOMAIN,cgi1.sexlist.com
   - DOMAIN,enter.sexlist.com
   - DOMAIN,images.sexlist.com
@@ -101192,7 +101192,7 @@ payload:
   - DOMAIN,banners.sextracker.com
   - DOMAIN,counter1.sextracker.com
   - DOMAIN,clit.sextracker.com
-  - DOMAIN,clit1.sextracker.com #[Tracking.Cookie]
+  - DOMAIN,clit1.sextracker.com
   - DOMAIN,clit2.sextracker.com
   - DOMAIN,clit3.sextracker.com
   - DOMAIN,clit4.sextracker.com
@@ -101270,7 +101270,7 @@ payload:
   - DOMAIN,www.seehits.com
   - DOMAIN,as.sexad.net
   - DOMAIN,counter2.sextracker.com
-  - DOMAIN,counter3.sextracker.com #[Tracking.Cookie]
+  - DOMAIN,counter3.sextracker.com
   - DOMAIN,counter4.sextracker.com
   - DOMAIN,counter5.sextracker.com
   - DOMAIN,counter6.sextracker.com
@@ -101332,13 +101332,13 @@ payload:
   - DOMAIN,static.styria-digital.com
   - DOMAIN,smp.adviva.net
   - DOMAIN,afe2.specificclick.net
-  - DOMAIN,ads.adviva.net #[Tracking.Cookie]
+  - DOMAIN,ads.adviva.net
   - DOMAIN,de.ads.adviva.net
   - DOMAIN,cluster.adultadworld.com
   - DOMAIN,cluster3.adultadworld.com
   - DOMAIN,hippo.adultadworld.com
   - DOMAIN,newt1.adultadworld.com
-  - DOMAIN,textads.adultadworld.com #[AdEngage]
+  - DOMAIN,textads.adultadworld.com
   - DOMAIN,tigershark.adultadworld.com
   - DOMAIN,cluster.adworldmedia.com
   - DOMAIN,www.adworldmedia.com
@@ -101390,13 +101390,13 @@ payload:
   - DOMAIN,mediaserver.bwinpartypartners.com
   - DOMAIN,www.everestjs.net
   - DOMAIN,cdn.static.zdbb.net
-  - DOMAIN,b.6sc.co #[WebBug]
+  - DOMAIN,b.6sc.co
   - DOMAIN,ad131m.adk2.co
   - DOMAIN,adsrvmedia.adk2.co
   - DOMAIN,adtgs.adk2.co
   - DOMAIN,cdn.adk2.co
   - DOMAIN,matomy.adk2.co
-  - DOMAIN,www.adobetag.com #[SiteCatalyst Link Tracking]
+  - DOMAIN,www.adobetag.com
   - DOMAIN,a.adready.com
   - DOMAIN,www.adreadytractions.com
   - DOMAIN,assets1.adroll.com
@@ -101418,7 +101418,7 @@ payload:
   - DOMAIN,tiads.ew.com
   - DOMAIN,promo.freshdirect.com
   - DOMAIN,tiads.health.com
-  - DOMAIN,js.hs-analytics.net #[HubSpot Analytics Tracking Code]
+  - DOMAIN,js.hs-analytics.net
   - DOMAIN,cdn.mediavoice.com
   - DOMAIN,d-track.send.microadinc.com
   - DOMAIN,mnet-ad.net
@@ -101445,7 +101445,7 @@ payload:
   - DOMAIN,supersonicads-a.akamaihd.net
   - DOMAIN,dyn-beacon.akamaized.net
   - DOMAIN,www.bkrtx.com
-  - DOMAIN,i.l.cnn.net #[WebBug]
+  - DOMAIN,i.l.cnn.net
   - DOMAIN,cdn.demdex.net
   - DOMAIN,fast.bostonglobe.demdex.net
   - DOMAIN,fast.nbcu.demdex.net
@@ -101474,7 +101474,7 @@ payload:
   - DOMAIN,tmscdn.coremetrics.com
   - DOMAIN,metrics.ctvdigital.net
   - DOMAIN,adinterax.cnet.com.edgesuite.net
-  - DOMAIN,c6.edgesuite.net #[RealMedia]
+  - DOMAIN,c6.edgesuite.net
   - DOMAIN,citi.bridgetrack.com.edgesuite.net
   - DOMAIN,content.yieldmanager.edgesuite.net
   - DOMAIN,fastclick.com.edgesuite.net
@@ -101491,7 +101491,7 @@ payload:
   - DOMAIN,akamai.smartadserver.com
   - DOMAIN,cdn.turn.com
   - DOMAIN,ad.flux.com
-  - DOMAIN,t.flux.com #[WebBug]
+  - DOMAIN,t.flux.com
   - DOMAIN,c.channeltraffic.net
   - DOMAIN,acookie.alimama.com
   - DOMAIN,hz.mmstat.com
@@ -101514,17 +101514,17 @@ payload:
   - DOMAIN,torontostar.demdex.net
   - DOMAIN,toyota.demdex.net
   - DOMAIN,ads.domainoptions.net
-  - DOMAIN,parkcloud.dynadot.com #[Parking Service]
+  - DOMAIN,parkcloud.dynadot.com
   - DOMAIN,ads.ehealthcaresolutions.com
   - DOMAIN,click.gospect.com
   - DOMAIN,bootstrap.livefyre.com
   - DOMAIN,stream1.livefyre.com
   - DOMAIN,heapanalytics.com
-  - DOMAIN,track.hubspot.com #[WebBug]
+  - DOMAIN,track.hubspot.com
   - DOMAIN,geo.jetpackdigital.com
-  - DOMAIN,services.krxd.net #[Geo.Webbug]
+  - DOMAIN,services.krxd.net
   - DOMAIN,lc.livefyre.com
-  - DOMAIN,logs.loggly.com #[WebBug]
+  - DOMAIN,logs.loggly.com
   - DOMAIN,h.nexac.com
   - DOMAIN,log3.optimizely.com
   - DOMAIN,config.parsely.com
@@ -101622,7 +101622,7 @@ payload:
   - DOMAIN,springclick-ads.s3.amazonaws.com
   - DOMAIN,d1zatounuylvwg.cloudfront.net
   - DOMAIN,d26b395fwzu5fz.cloudfront.net
-  - DOMAIN,dc8xl0ndzn2cb.cloudfront.net #[Snowplow analytics]
+  - DOMAIN,dc8xl0ndzn2cb.cloudfront.net
   - DOMAIN,gernewt.info
   - DOMAIN,ads.goodreads.com
   - DOMAIN,lionstracking.com
@@ -101672,7 +101672,7 @@ payload:
   - DOMAIN,mscom.demdex.net
   - DOMAIN,schwab.demdex.net
   - DOMAIN,timeinc.demdex.net
-  - DOMAIN,www.onesafe-software.com #[ScamFraudAlert.Antispyware]
+  - DOMAIN,www.onesafe-software.com
   - DOMAIN,geo.qualaroo.com
   - DOMAIN,tracking.revimedia.com
   - DOMAIN,n.targetctracker.com
@@ -101693,7 +101693,7 @@ payload:
   - DOMAIN,dcinfos.abtasty.com
   - DOMAIN,go.affec.tv
   - DOMAIN,www.smartredirect.de
-  - DOMAIN,web-t.9gag.com #[Piwik.Analytics]
+  - DOMAIN,web-t.9gag.com
   - DOMAIN,ads.adual.net
   - DOMAIN,engine2.adzerk.net
   - DOMAIN,vpc.altitude-arena.com
@@ -101721,7 +101721,7 @@ payload:
   - DOMAIN,script.opentracker.net
   - DOMAIN,server1.opentracker.net
   - DOMAIN,server10.opentracker.net
-  - DOMAIN,log.optimizely.com #[WebBug]
+  - DOMAIN,log.optimizely.com
   - DOMAIN,3459571470.log.optimizely.com
   - DOMAIN,ntracking.optimatic.com
   - DOMAIN,stats.pagefair.com
@@ -101795,7 +101795,7 @@ payload:
   - DOMAIN,iau.adsiduous.com
   - DOMAIN,d1v9u0bgi1uimx.cloudfront.net
   - DOMAIN,d169bbxks24g2u.cloudfront.net
-  - DOMAIN,d2c8v52ll5s99u.cloudfront.net #[comscore][affects arstechnica/wired/vogue/vanity fair]
+  - DOMAIN,d2c8v52ll5s99u.cloudfront.net
   - DOMAIN,d2cgumzzqhgmdu.cloudfront.net
   - DOMAIN,d24n15hnbwhuhn.cloudfront.net
   - DOMAIN,d2tgfbvjf3q6hn.cloudfront.net
@@ -101811,7 +101811,7 @@ payload:
   - DOMAIN,adserver.tappsgames.com
   - DOMAIN,t.adk2.com
   - DOMAIN,vid-io.springserve.net
-  - DOMAIN,collector-195.tvsquared.com #[Piwik.Analytics]
+  - DOMAIN,collector-195.tvsquared.com
   - DOMAIN,t.acxiom-online.com
   - DOMAIN,api.addnow.com
   - DOMAIN,charter.demdex.net
@@ -101868,7 +101868,7 @@ payload:
   - DOMAIN,j.flxpxl.com
   - DOMAIN,matcher.idtargeting.com
   - DOMAIN,ccs.infospace.com
-  - DOMAIN,www.i.matheranalytics.com #[WebBug]
+  - DOMAIN,www.i.matheranalytics.com
   - DOMAIN,redirect.com
   - DOMAIN,d.tailtarget.com
   - DOMAIN,j.traffichunt.com
@@ -101895,7 +101895,7 @@ payload:
   - DOMAIN,cdn.installationsafe.net.s3.amazonaws.com
   - DOMAIN,slate-ad-scripts.s3.amazonaws.com
   - DOMAIN,znaptag-us.s3.amazonaws.com
-  - DOMAIN,cdn.avmws.com #[AvantMetrics]
+  - DOMAIN,cdn.avmws.com
   - DOMAIN,beachfrontio.com
   - DOMAIN,ad.broadstreetads.com
   - DOMAIN,cdn.broadstreetads.com
@@ -101905,7 +101905,7 @@ payload:
   - DOMAIN,tracking2.channeladvisor.com
   - DOMAIN,www.clicktripz.com
   - DOMAIN,images1.cliqueclack.com
-  - DOMAIN,d1fc8wv8zag5ca.cloudfront.net #[Snowplow JavaScript tracker]
+  - DOMAIN,d1fc8wv8zag5ca.cloudfront.net
   - DOMAIN,d1l6p2sc9645hc.cloudfront.net
   - DOMAIN,d1piupybsgr6dr.cloudfront.net
   - DOMAIN,d5nxst8fruw4z.cloudfront.net
@@ -101941,7 +101941,7 @@ payload:
   - DOMAIN,contentz.mkt932.com
   - DOMAIN,contentz.mkt941.com
   - DOMAIN,track.moreniche.com
-  - DOMAIN,c.mtro.co #[MetroGuild Widget Tracking]
+  - DOMAIN,c.mtro.co
   - DOMAIN,zdbb.netshelter.net
   - DOMAIN,mix-test.uts.ngdata.com
   - DOMAIN,cdn.onscroll.com
@@ -101952,7 +101952,7 @@ payload:
   - DOMAIN,cdn.sail-horizon.com
   - DOMAIN,shareaholic.com
   - DOMAIN,clickcdn.shareaholic.com
-  - DOMAIN,gsf-cf.softonic.com #[Win32/OpenCandy.C]
+  - DOMAIN,gsf-cf.softonic.com
   - DOMAIN,eventlogger.soundcloud.com
   - DOMAIN,swrap.tradedoubler.com
   - DOMAIN,cdn.traffichunt.com
@@ -101979,7 +101979,7 @@ payload:
   - DOMAIN,cache.btrll.com
   - DOMAIN,engine.carbonads.com
   - DOMAIN,d2vig74li2resi.cloudfront.net
-  - DOMAIN,desv383oqqc0.cloudfront.net #[Popcorn Metrics]
+  - DOMAIN,desv383oqqc0.cloudfront.net
   - DOMAIN,js.convertale.com
   - DOMAIN,dailymotion.demdex.net
   - DOMAIN,error.demdex.net
@@ -102035,8 +102035,8 @@ payload:
   - DOMAIN,xch.smrtgs.com
   - DOMAIN,ardrone.swoop.com
   - DOMAIN,felix.data.tm-awx.com
-  - DOMAIN,collector-184.tvsquared.com #[Piwik.Analytics]
-  - DOMAIN,collector-428.tvsquared.com #[Piwik.Analytics]
+  - DOMAIN,collector-184.tvsquared.com
+  - DOMAIN,collector-428.tvsquared.com
   - DOMAIN,a3.websitealive.com
   - DOMAIN,aax-us-east-rtb.amazon-adsystem.com
   - DOMAIN,rcm-na.amazon-adsystem.com
@@ -102054,7 +102054,7 @@ payload:
   - DOMAIN,trk.cetrk.com
   - DOMAIN,dl.keywordstrategy.org
   - DOMAIN,beacon.tunecore.com
-  - DOMAIN,p.addthis.com #[pixel.invitemedia.com]
+  - DOMAIN,p.addthis.com
   - DOMAIN,rt3.infolinks.com
   - DOMAIN,adaptv.pixel.invitemedia.com
   - DOMAIN,g-pixel.invitemedia.com
@@ -102077,7 +102077,7 @@ payload:
   - DOMAIN,ads-us.pictela.net
   - DOMAIN,pix.pulsemgr.com
   - DOMAIN,cnn.dyn.cnn.com
-  - DOMAIN,gdyn.cnn.com #[WebBug]
+  - DOMAIN,gdyn.cnn.com
   - DOMAIN,gdyn.nba.com
   - DOMAIN,gdyn.veryfunnyads.com
   - DOMAIN,bf.mocda1.com
@@ -102107,7 +102107,7 @@ payload:
   - DOMAIN,loga.hit-parade.com
   - DOMAIN,logp.hit-parade.com
   - DOMAIN,xiti.com
-  - DOMAIN,loga.xiti.com #[Tracking.Cookie]
+  - DOMAIN,loga.xiti.com
   - DOMAIN,logc1.xiti.com
   - DOMAIN,logc2.xiti.com
   - DOMAIN,logc3.xiti.com
@@ -102183,7 +102183,7 @@ payload:
   - DOMAIN,logv14.xiti.com
   - DOMAIN,logv16.xiti.com
   - DOMAIN,logv17.xiti.com
-  - DOMAIN,logv18.xiti.com #[WebBug]
+  - DOMAIN,logv18.xiti.com
   - DOMAIN,logv19.xiti.com
   - DOMAIN,logv20.xiti.com
   - DOMAIN,logv21.xiti.com
@@ -102311,7 +102311,7 @@ payload:
   - DOMAIN,bannersgomlm.buildreferrals.com
   - DOMAIN,adds.trafflow.com
   - DOMAIN,feed.trafflow.com
-  - DOMAIN,freeimghost.trafflow.com #[Spamdexing]
+  - DOMAIN,freeimghost.trafflow.com
   - DOMAIN,service1.predictad.com
   - DOMAIN,service2.predictad.com
   - DOMAIN,geo.widdit.com
@@ -102322,7 +102322,7 @@ payload:
   - DOMAIN,ad6.bigmir.net
   - DOMAIN,ad7.bigmir.net
   - DOMAIN,adi.bigmir.net
-  - DOMAIN,c.bigmir.net #[WebBug]
+  - DOMAIN,c.bigmir.net
   - DOMAIN,i.bigmir.net
   - DOMAIN,t.nrelate.com
   - DOMAIN,bitcast-a.v1.iad1.bitgravity.com
@@ -102333,12 +102333,12 @@ payload:
   - DOMAIN,ads.sexandsubmission.com
   - DOMAIN,ads.thetrainingofo.com
   - DOMAIN,ads.whippedass.com
-  - DOMAIN,bbtv.blinkx.com #[Trojan.Win32.Agent.wif]
+  - DOMAIN,bbtv.blinkx.com
   - DOMAIN,ads.uknetguide.co.uk
   - DOMAIN,fastwebcounter.com
   - DOMAIN,stats.ozwebsites.biz
   - DOMAIN,addirector.vindicosuite.com
-  - DOMAIN,web.vindicosuite.com #[WebBug]
+  - DOMAIN,web.vindicosuite.com
   - DOMAIN,ads.crawler.com
   - DOMAIN,ads.websearch.com
   - DOMAIN,tracking.godatafeed.com
@@ -102413,13 +102413,13 @@ payload:
   - DOMAIN,js.casalemedia.com
   - DOMAIN,www.casalemedia.com
   - DOMAIN,www.oofun.com
-  - DOMAIN,00fun.com #[Tracking.Cookie]
+  - DOMAIN,00fun.com
   - DOMAIN,www.00fun.com
   - DOMAIN,park.above.com
   - DOMAIN,www.needmorehits.com
   - DOMAIN,openx.trellian.com
   - DOMAIN,smart.synergy-e.com
-  - DOMAIN,stat.synergy-e.com #[Piwik.Analytics]
+  - DOMAIN,stat.synergy-e.com
   - DOMAIN,unitus.synergy-e.com
   - DOMAIN,stat.fengniao.com
   - DOMAIN,ads.webshots.com
@@ -102450,7 +102450,7 @@ payload:
   - DOMAIN,banners.adgoto.com
   - DOMAIN,v2.adgoto.com
   - DOMAIN,www.mm26.com
-  - DOMAIN,adv.sexcounter.com #[Tracking.Cookie]
+  - DOMAIN,adv.sexcounter.com
   - DOMAIN,cs.sexcounter.com
   - DOMAIN,ads.asredas.com
   - DOMAIN,secure-yt.imrworldwide.com
@@ -102481,7 +102481,7 @@ payload:
   - DOMAIN,imp.clickability.com
   - DOMAIN,ri.clickability.com
   - DOMAIN,s.clickability.com
-  - DOMAIN,sftp.clickability.com #[Tracking.Cookie]
+  - DOMAIN,sftp.clickability.com
   - DOMAIN,stats.clickability.com
   - DOMAIN,try.abtasty.com
   - DOMAIN,srv.bebi.com
@@ -102552,14 +102552,14 @@ payload:
   - DOMAIN,us1.siteimprove.com
   - DOMAIN,us2.siteimprove.com
   - DOMAIN,oss-content.securestudies.com
-  - DOMAIN,beacon.scorecardresearch.com #[WebBug]
+  - DOMAIN,beacon.scorecardresearch.com
   - DOMAIN,www2.survey-poll.com
   - DOMAIN,www.premieropinion.com
   - DOMAIN,a.scorecardresearch.com
   - DOMAIN,c.scorecardresearch.com
   - DOMAIN,post.securestudies.com
   - DOMAIN,www.voicefive.com
-  - DOMAIN,udm.ia8.scorecardresearch.com #[Microsoft Mahjong]
+  - DOMAIN,udm.ia8.scorecardresearch.com
   - DOMAIN,udm.ia9.scorecardresearch.com
   - DOMAIN,beacon.securestudies.com
   - DOMAIN,ar.voicefive.com
@@ -102568,10 +102568,10 @@ payload:
   - DOMAIN,web.survey-poll.com
   - DOMAIN,www.surveysite.com
   - DOMAIN,survey2.voicefive.com
-  - DOMAIN,data.abebooks.com #[WebBug.eluminate]
+  - DOMAIN,data.abebooks.com
   - DOMAIN,testdata.coremetrics.com
   - DOMAIN,www.linkshare.com
-  - DOMAIN,ads.jpost.com #[RealMedia]
+  - DOMAIN,ads.jpost.com
   - DOMAIN,cas.criteo.com
   - DOMAIN,dis.eu.criteo.com
   - DOMAIN,rtax.criteo.com
@@ -102579,7 +102579,7 @@ payload:
   - DOMAIN,widget.criteo.com
   - DOMAIN,www.criteo.com
   - DOMAIN,search.ipromote.com
-  - DOMAIN,cqcounter.com #[WebBug]
+  - DOMAIN,cqcounter.com
   - DOMAIN,img.cqcounter.com
   - DOMAIN,nl.cqcounter.com
   - DOMAIN,no.2.cqcounter.com
@@ -102597,7 +102597,7 @@ payload:
   - DOMAIN,th.2.cqcounter.com
   - DOMAIN,tr.2.cqcounter.com
   - DOMAIN,uk.2.cqcounter.com
-  - DOMAIN,us.2.cqcounter.com #[Wildcard DNS]
+  - DOMAIN,us.2.cqcounter.com
   - DOMAIN,us.cqcounter.com
   - DOMAIN,1au.cqcounter.com
   - DOMAIN,1bm.cqcounter.com
@@ -102625,7 +102625,7 @@ payload:
   - DOMAIN,gtb5.acecounter.com
   - DOMAIN,gtb19.acecounter.com
   - DOMAIN,gtcc1.acecounter.com
-  - DOMAIN,gtp1.acecounter.com #[Tracking.Cookie]
+  - DOMAIN,gtp1.acecounter.com
   - DOMAIN,gtp16.acecounter.com
   - DOMAIN,wgc1.acecounter.com
   - DOMAIN,ads.fooyoh.com
@@ -102640,7 +102640,7 @@ payload:
   - DOMAIN,web.industrybrains.com
   - DOMAIN,www.3dstats.com
   - DOMAIN,adserv.net
-  - DOMAIN,www.adwarespy.com #[Symantec.AdwareSpy]
+  - DOMAIN,www.adwarespy.com
   - DOMAIN,affiliates.bhphotovideo.com
   - DOMAIN,www.buildtraffic.com
   - DOMAIN,www.eliteconcepts.com
@@ -102671,10 +102671,10 @@ payload:
   - DOMAIN,mmm.vindy.com
   - DOMAIN,adsbox.detik.com
   - DOMAIN,analytic.detik.com
-  - DOMAIN,imagescroll.detik.com #[WebBug]
+  - DOMAIN,imagescroll.detik.com
   - DOMAIN,newopenx.detik.com
   - DOMAIN,beta.newopenx.detik.com
-  - DOMAIN,o.detik.com #[WebBug]
+  - DOMAIN,o.detik.com
   - DOMAIN,detik.serving-sys.com
   - DOMAIN,ads.glispa.com
   - DOMAIN,partners.mysavings.com
@@ -102685,7 +102685,7 @@ payload:
   - DOMAIN,directleads.com
   - DOMAIN,keywordmax.com
   - DOMAIN,www.keywordmax.com
-  - DOMAIN,login.tracking101.com #[Tracking.Cookie]
+  - DOMAIN,login.tracking101.com
   - DOMAIN,images.bmnq.com
   - DOMAIN,images.cnomy.com
   - DOMAIN,ads.webhosting.info
@@ -102699,7 +102699,7 @@ payload:
   - DOMAIN,adsatt.movies.starwave.com
   - DOMAIN,espn-ak.starwave.com
   - DOMAIN,odc.starwave.com
-  - DOMAIN,dcapps.disney.go.com #[WebBug]
+  - DOMAIN,dcapps.disney.go.com
   - DOMAIN,ngads.go.com
   - DOMAIN,ad.go.com
   - DOMAIN,adimages.go.com
@@ -102776,13 +102776,13 @@ payload:
   - DOMAIN,dynamic1.anandtech.com
   - DOMAIN,dynamic2.anandtech.com
   - DOMAIN,dynamic1.dailytech.com
-  - DOMAIN,now.eloqua.com #[WebBug][Tracking.Cookie]
+  - DOMAIN,now.eloqua.com
   - DOMAIN,s323.t.eloqua.com
   - DOMAIN,s1184.t.eloqua.com
   - DOMAIN,s1325.t.eloqua.com
   - DOMAIN,s1471.t.eloqua.com
   - DOMAIN,s1481.t.eloqua.com
-  - DOMAIN,s2150.t.eloqua.com #[WebBug]
+  - DOMAIN,s2150.t.eloqua.com
   - DOMAIN,s3015.t.eloqua.com
   - DOMAIN,hitpro.us
   - DOMAIN,www.hitpro.us
@@ -102808,7 +102808,7 @@ payload:
   - DOMAIN,2278.stats.misstrends.com
   - DOMAIN,4184.stats.misstrends.com
   - DOMAIN,www.humanclick.com
-  - DOMAIN,hc2.humanclick.com #[Tracking.Cookie]
+  - DOMAIN,hc2.humanclick.com
   - DOMAIN,landingpages.sunnytoolz.com
   - DOMAIN,ads.guru3d.com
   - DOMAIN,banner1.pornhost.com
@@ -102816,7 +102816,7 @@ payload:
   - DOMAIN,js.adserverpub.com
   - DOMAIN,www2.adserverpub.com
   - DOMAIN,results.cafefind.net
-  - DOMAIN,gamevance.com #[Trojan-Downloader.Win32.Small.gkk]
+  - DOMAIN,gamevance.com
   - DOMAIN,www.gamevance.com
   - DOMAIN,ad7.literotica.com
   - DOMAIN,r1.literotica.com
@@ -102849,17 +102849,17 @@ payload:
   - DOMAIN,jizzads.com
   - DOMAIN,www.jizzads.com
   - DOMAIN,hv3.webstat.com
-  - DOMAIN,hits.webstat.com #[Tracking.Cookie]
+  - DOMAIN,hits.webstat.com
   - DOMAIN,uk.ads.hexus.net
   - DOMAIN,adserver4.fluent.ltd.uk
   - DOMAIN,hexusads.fluent.ltd.uk
-  - DOMAIN,ads.ign.com #[Tracking.Cookie]
-  - DOMAIN,nb.myspace.com #[WebBug]
+  - DOMAIN,ads.ign.com
+  - DOMAIN,nb.myspace.com
   - DOMAIN,fimserve.askmen.com
-  - DOMAIN,fimserve.ign.com #[fimserve.myspace.com]
-  - DOMAIN,delb.myspace.com #[ad.yieldmanager.com]
-  - DOMAIN,delb2.myspace.com #[media.fimnetwork.com]
-  - DOMAIN,demr.myspace.com #[media.fimnetwork.com]
+  - DOMAIN,fimserve.ign.com
+  - DOMAIN,delb.myspace.com
+  - DOMAIN,delb2.myspace.com
+  - DOMAIN,demr.myspace.com
   - DOMAIN,fimserve.myspace.com
   - DOMAIN,mpp.specificclick.net
   - DOMAIN,mpp.vindicosuite.com
@@ -102880,17 +102880,17 @@ payload:
   - DOMAIN,m.v.fwmrm.net
   - DOMAIN,2ab7f.v.fwmrm.net
   - DOMAIN,29ccd.v.fwmrm.net
-  - DOMAIN,adultfriendfinder.com #[Tracking.Cookie]
+  - DOMAIN,adultfriendfinder.com
   - DOMAIN,adserver.adultfriendfinder.com
   - DOMAIN,banners.adultfriendfinder.com
   - DOMAIN,cover9.adultfriendfinder.com
   - DOMAIN,geobanner.adultfriendfinder.com
   - DOMAIN,guest.adultfriendfinder.com
-  - DOMAIN,iframe.adultfriendfinder.com #[Adware.Redalert]
+  - DOMAIN,iframe.adultfriendfinder.com
   - DOMAIN,option9.adultfriendfinder.com
   - DOMAIN,pop6.adultfriendfinder.com
-  - DOMAIN,tgp.adultfriendfinder.com #[cams.com]
-  - DOMAIN,www.adultfriendfinder.com #[Troj/Small-AG][Adware-Adroar.dll]
+  - DOMAIN,tgp.adultfriendfinder.com
+  - DOMAIN,www.adultfriendfinder.com
   - DOMAIN,banners.alt.com
   - DOMAIN,banners.amigos.com
   - DOMAIN,adserver.asiafriendfinder.com
@@ -102954,7 +102954,7 @@ payload:
   - DOMAIN,c9.amazingcounters.com
   - DOMAIN,cb.amazingcounters.com
   - DOMAIN,www.amazingcounters.com
-  - DOMAIN,m.usersonline.com #[WebBug]
+  - DOMAIN,m.usersonline.com
   - DOMAIN,gscounters.gigya.com
   - DOMAIN,gscounters.us1.gigya.com
   - DOMAIN,www.adultadbroker.com
@@ -102987,7 +102987,7 @@ payload:
   - DOMAIN,www.otherossettlement.com
   - DOMAIN,redemptionengine.com
   - DOMAIN,www.redemptionengine.com
-  - DOMAIN,images-pw.secureserver.net #[Parking Service]
+  - DOMAIN,images-pw.secureserver.net
   - DOMAIN,highpro1.com
   - DOMAIN,adexchangeprediction.com
   - DOMAIN,static-trackers.adtarget.me
@@ -103034,7 +103034,7 @@ payload:
   - DOMAIN,5362399.fls.doubleclick.net
   - DOMAIN,video-ad-stats.googlesyndication.com
   - DOMAIN,dp.g.doubleclick.net
-  - DOMAIN,service.urchin.com #[Urchin Tracking Module]
+  - DOMAIN,service.urchin.com
   - DOMAIN,analytics-api-samples.googlecode.com
   - DOMAIN,www.adsensecustomsearchads.com
   - DOMAIN,1435575.fls.doubleclick.net
@@ -103072,7 +103072,7 @@ payload:
   - DOMAIN,ad.ch.doubleclick.net
   - DOMAIN,ad.cl.doubleclick.net
   - DOMAIN,ad.cn.doubleclick.net
-  - DOMAIN,ad.de.doubleclick.net #[Tracking.Cookie]
+  - DOMAIN,ad.de.doubleclick.net
   - DOMAIN,ad.dk.doubleclick.net
   - DOMAIN,ad.es.doubleclick.net
   - DOMAIN,ad.fi.doubleclick.net
@@ -103144,7 +103144,7 @@ payload:
   - DOMAIN,www.googletagservices.com
   - DOMAIN,www.linksalpha.com
   - DOMAIN,adbetnet.advertserve.com
-  - DOMAIN,web.acumenpi.com #[AdvertPro]
+  - DOMAIN,web.acumenpi.com
   - DOMAIN,ads.bloodhorse.com
   - DOMAIN,search.etargetnet.com
   - DOMAIN,bg.search.etargetnet.com
@@ -103168,7 +103168,7 @@ payload:
   - DOMAIN,switch.rtbsystem.com
   - DOMAIN,s62.research.de.com
   - DOMAIN,level.turboads.de
-  - DOMAIN,piwik.wsws.org #[Piwik.Analytics]
+  - DOMAIN,piwik.wsws.org
   - DOMAIN,t.goadservices.com
   - DOMAIN,e.maxtraffic.com
   - DOMAIN,adsfeed3.brabys.co.za
@@ -103197,7 +103197,7 @@ payload:
   - DOMAIN,jadcenter.com
   - DOMAIN,s300.meetrics.net
   - DOMAIN,target.smi2.net
-  - DOMAIN,stats.virtuemart.net #[Piwik.Analytics]
+  - DOMAIN,stats.virtuemart.net
   - DOMAIN,lb.fruitflan.com
   - DOMAIN,adcentre.it-advanced.com
   - DOMAIN,dc61.s290.meetrics.net
@@ -103219,7 +103219,7 @@ payload:
   - DOMAIN,br.comclick.com
   - DOMAIN,bdx.comclick.com
   - DOMAIN,ct2.comclick.com
-  - DOMAIN,fl01.ct2.comclick.com #[Tracking.Cookie]
+  - DOMAIN,fl01.ct2.comclick.com
   - DOMAIN,ihm01.ct2.comclick.com
   - DOMAIN,www.comclick.com
   - DOMAIN,js.himediads.com
@@ -103340,7 +103340,7 @@ payload:
   - DOMAIN,server-au.imrworldwide.com
   - DOMAIN,server-br.imrworldwide.com
   - DOMAIN,server-by.imrworldwide.com
-  - DOMAIN,server-de.imrworldwide.com #[Tracking.Cookie]
+  - DOMAIN,server-de.imrworldwide.com
   - DOMAIN,server-dk.imrworldwide.com
   - DOMAIN,server-ee.imrworldwide.com
   - DOMAIN,server-fi.imrworldwide.com
@@ -103366,7 +103366,7 @@ payload:
   - DOMAIN,m.exactag.com
   - DOMAIN,jsfp.coremetrics.com
   - DOMAIN,test.coremetrics.com
-  - DOMAIN,twci.coremetrics.com #[Tracking.Cookie]
+  - DOMAIN,twci.coremetrics.com
   - DOMAIN,static.dynad.net
   - DOMAIN,www.freestats.tv
   - DOMAIN,om.metacrawler.com
@@ -103378,13 +103378,13 @@ payload:
   - DOMAIN,clients.bluecava.com
   - DOMAIN,ads.iwon.com
   - DOMAIN,c4.iwon.com
-  - DOMAIN,cc.iwon.com #[iWon Progressive Counter]
+  - DOMAIN,cc.iwon.com
   - DOMAIN,docs1.iwon.com
   - DOMAIN,my.iwon.com
   - DOMAIN,plus.iwon.com
   - DOMAIN,prizemachine.games.iwon.com
   - DOMAIN,searchassistant.iwon.com
-  - DOMAIN,www1.iwon.com #[ADW_IWON.B]
+  - DOMAIN,www1.iwon.com
   - DOMAIN,image.i1img.com
   - DOMAIN,keisu02.eproof.com
   - DOMAIN,control.adap.tv
@@ -103434,7 +103434,7 @@ payload:
   - DOMAIN,cti.w55c.net
   - DOMAIN,ads.mrskin.com
   - DOMAIN,p.chango.com
-  - DOMAIN,adserver.sitesense.com #[Parking Service]
+  - DOMAIN,adserver.sitesense.com
   - DOMAIN,ebdr2.com
   - DOMAIN,p.ebdr2.com
   - DOMAIN,cdn.visiblemeasures.com
@@ -103480,7 +103480,7 @@ payload:
   - DOMAIN,gamersad.com
   - DOMAIN,rotor6.newzfind.com
   - DOMAIN,sutra.newzfind.com
-  - DOMAIN,ads.rampidads.com #[Tracking.Cookie]
+  - DOMAIN,ads.rampidads.com
   - DOMAIN,main.rampidads.com
   - DOMAIN,www.rampidads.com
   - DOMAIN,www.classifieds1000.com
@@ -103530,7 +103530,7 @@ payload:
   - DOMAIN,syndication.jsadapi.com
   - DOMAIN,peakclick.com
   - DOMAIN,feed.peakclick.com
-  - DOMAIN,www.peakclick.com #[AdWare.SideSearch.g][FindFmToolbar]
+  - DOMAIN,www.peakclick.com
   - DOMAIN,www.stats.net
   - DOMAIN,t2lgo.com
   - DOMAIN,g.promosrv.com
@@ -103564,7 +103564,7 @@ payload:
   - DOMAIN,20996-1061.link.iwanttodeliver.com
   - DOMAIN,243029-18685.link.iwanttodeliver.com
   - DOMAIN,244657-12903.link.iwanttodeliver.com
-  - DOMAIN,38707-223419.link.iwanttodeliver.com #[xvideos.com]
+  - DOMAIN,38707-223419.link.iwanttodeliver.com
   - DOMAIN,4902-145639.link.iwanttodeliver.com
   - DOMAIN,www.loading-delivery2.com
   - DOMAIN,banners.meccahoo.com
@@ -103595,7 +103595,7 @@ payload:
   - DOMAIN,flttracksecure.com
   - DOMAIN,ads.ibtracking.com
   - DOMAIN,sascentral.com
-  - DOMAIN,community.adlandpro.com #[Tracking.Cookie]
+  - DOMAIN,community.adlandpro.com
   - DOMAIN,radarurl.com
   - DOMAIN,ads.iawsnetwork.com
   - DOMAIN,oreo.iawsnetwork.com
@@ -103613,7 +103613,7 @@ payload:
   - DOMAIN,counter.jasmin.hu
   - DOMAIN,ads.gofuckyourself.com
   - DOMAIN,adimg1.chosun.com
-  - DOMAIN,cad.chosun.com #[RealMedia]
+  - DOMAIN,cad.chosun.com
   - DOMAIN,hitlog2.chosun.com
   - DOMAIN,counter.joins.com
   - DOMAIN,openx.4shared.com
@@ -103624,7 +103624,7 @@ payload:
   - DOMAIN,ads.phonearena.com
   - DOMAIN,bannerexchange.troglod.com
   - DOMAIN,www.usersonlinecounter.com
-  - DOMAIN,botd2.wordpress.com #[WebBug]
+  - DOMAIN,botd2.wordpress.com
   - DOMAIN,xxx-r.com
   - DOMAIN,www.statsforever.com
   - DOMAIN,www.widebanner.com
@@ -103634,7 +103634,7 @@ payload:
   - DOMAIN,img.sunmediaads.com
   - DOMAIN,ads.directcorp.de
   - DOMAIN,adserver.directcorp.de
-  - DOMAIN,exit-ad.de #[Tracking.Cookie]
+  - DOMAIN,exit-ad.de
   - DOMAIN,www.exit-ad.de
   - DOMAIN,www.little-help.com
   - DOMAIN,promo-m.bongacash.com
@@ -103645,7 +103645,7 @@ payload:
   - DOMAIN,www.hubtraffic.com
   - DOMAIN,img.clicksagent.com
   - DOMAIN,img.ruclicks.com
-  - DOMAIN,zhirok.com #[Spamdexing]
+  - DOMAIN,zhirok.com
   - DOMAIN,promo.bongacash.com
   - DOMAIN,3animalsex.com
   - DOMAIN,www.3animalsex.com
@@ -103654,8 +103654,8 @@ payload:
   - DOMAIN,a.adorika.net
   - DOMAIN,adv.adultpartnership.com
   - DOMAIN,counter.cam-content.com
-  - DOMAIN,piwik.cam-content.com #[Piwik.Analytics]
-  - DOMAIN,www.crackserver.com #[StopBadware.Report]
+  - DOMAIN,piwik.cam-content.com
+  - DOMAIN,www.crackserver.com
   - DOMAIN,ads2.ero-advertising.com
   - DOMAIN,askjolene.ero-advertising.com
   - DOMAIN,banners2.ero-advertising.com
@@ -103686,14 +103686,14 @@ payload:
   - DOMAIN,linktarget.com
   - DOMAIN,webmasters.videarn.com
   - DOMAIN,ad.wingads.com
-  - DOMAIN,db0.net-filter.com #[WebtraffIQ Code]
+  - DOMAIN,db0.net-filter.com
   - DOMAIN,db2.net-filter.com
   - DOMAIN,db3.net-filter.com
   - DOMAIN,db4.net-filter.com
   - DOMAIN,db5.net-filter.com
   - DOMAIN,db6.net-filter.com
   - DOMAIN,db7.net-filter.com
-  - DOMAIN,sitestats.com #[Tracking.Cookie]
+  - DOMAIN,sitestats.com
   - DOMAIN,db0.sitestats.com
   - DOMAIN,db1.sitestats.com
   - DOMAIN,db2.sitestats.com
@@ -103710,11 +103710,11 @@ payload:
   - DOMAIN,rcm-images.amazon.com
   - DOMAIN,cdnads.cam4.com
   - DOMAIN,ad.insightexpress.com
-  - DOMAIN,www.insightexpress.com #[Lavasoft.BannedSite]
+  - DOMAIN,www.insightexpress.com
   - DOMAIN,ad.insightexpressai.com
   - DOMAIN,icompass.insightexpressai.com
   - DOMAIN,core.insightexpressai.com
-  - DOMAIN,extreme-dm.com #[WebBug]
+  - DOMAIN,extreme-dm.com
   - DOMAIN,v.extreme-dm.com
   - DOMAIN,w0.extreme-dm.com
   - DOMAIN,extremetracking.com
@@ -103729,7 +103729,7 @@ payload:
   - DOMAIN,wb.interpolls.com
   - DOMAIN,cdn.program3.com
   - DOMAIN,m.sancdn.net
-  - DOMAIN,udm.ri1.scorecardresearch.com #[Microsoft Mahjong]
+  - DOMAIN,udm.ri1.scorecardresearch.com
   - DOMAIN,udm.ri2.scorecardresearch.com
   - DOMAIN,udm.ri3.scorecardresearch.com
   - DOMAIN,udm.ri4.scorecardresearch.com
@@ -103737,7 +103737,7 @@ payload:
   - DOMAIN,udm.ri6.scorecardresearch.com
   - DOMAIN,udm.ri7.scorecardresearch.com
   - DOMAIN,udm.ri8.scorecardresearch.com
-  - DOMAIN,udm.ri9.scorecardresearch.com #[Microsoft Mahjong]
+  - DOMAIN,udm.ri9.scorecardresearch.com
   - DOMAIN,www.clickmanage.com
   - DOMAIN,www.abcjmp.com
   - DOMAIN,2183.jsjmlejl.clickshield.net
@@ -103758,7 +103758,7 @@ payload:
   - DOMAIN,ads.deviantart.com
   - DOMAIN,adsvr.deviantart.com
   - DOMAIN,ads.exoclick.com
-  - DOMAIN,msnads-wm9.fplive.net #[MSN Video Ads]
+  - DOMAIN,msnads-wm9.fplive.net
   - DOMAIN,ips-invite.iperceptions.com
   - DOMAIN,ads.mediaforge.com
   - DOMAIN,img.metaffiliation.com
@@ -103775,7 +103775,7 @@ payload:
   - DOMAIN,pixel.solvemedia.com
   - DOMAIN,demoq.use-trade.com
   - DOMAIN,richmedia.yimg.com
-  - DOMAIN,blueadvertise.com #[Google.Diagnostic][2013-01-02]
+  - DOMAIN,blueadvertise.com
   - DOMAIN,adserver2.blueadvertise.com
   - DOMAIN,cbpublishing.blueadvertise.com
   - DOMAIN,cdxninteractive.blueadvertise.com
@@ -103800,11 +103800,11 @@ payload:
   - DOMAIN,cdn.cpmstar.com
   - DOMAIN,static.ads.crakmedia.com
   - DOMAIN,static.fleshlight.com
-  - DOMAIN,content.ipro.com #[WebBug]
+  - DOMAIN,content.ipro.com
   - DOMAIN,cdn-01.yumenetworks.com
   - DOMAIN,img100-321.xvideos.com
   - DOMAIN,e.freewebhostingarea.com
-  - DOMAIN,ad-rotator.com #[adspeed.com]
+  - DOMAIN,ad-rotator.com
   - DOMAIN,serv.adspeed.com
   - DOMAIN,www.adspeed.com
   - DOMAIN,clickthru.net
@@ -103911,7 +103911,7 @@ payload:
   - DOMAIN,my.trackjs.com
   - DOMAIN,image.atdmt.com
   - DOMAIN,img.atdmt.com
-  - DOMAIN,www.atdmt.com #[AveA Action Tag]
+  - DOMAIN,www.atdmt.com
   - DOMAIN,analytics.newsvine.com
   - DOMAIN,tracking.bannerflow.com
   - DOMAIN,api.atdmt.com
@@ -103921,7 +103921,7 @@ payload:
   - DOMAIN,www.deepmetrix.com
   - DOMAIN,adsyndication.msn.com
   - DOMAIN,c.no.msn.com
-  - DOMAIN,log.newsvine.com #[WebBug]
+  - DOMAIN,log.newsvine.com
   - DOMAIN,e3.adpushup.com
   - DOMAIN,mt.adquality.ch
   - DOMAIN,data.queryly.com
@@ -103930,7 +103930,7 @@ payload:
   - DOMAIN,h.atdmt.com
   - DOMAIN,analytics.breakingnews.com
   - DOMAIN,analytics.live.com
-  - DOMAIN,digg.analytics.live.com #[WebBug]
+  - DOMAIN,digg.analytics.live.com
   - DOMAIN,madserver.net
   - DOMAIN,ads1.msads.net
   - DOMAIN,a.ads1.msads.net
@@ -103948,17 +103948,17 @@ payload:
   - DOMAIN,rmads.eu.msn.com
   - DOMAIN,analytics.msnbc.com
   - DOMAIN,msn.serving-sys.com
-  - DOMAIN,click.atdmt.com #[Tracking.Cookie]
+  - DOMAIN,click.atdmt.com
   - DOMAIN,sact.atdmt.com
-  - DOMAIN,beacon.clickequations.net #[WebBug]
+  - DOMAIN,beacon.clickequations.net
   - DOMAIN,js.clickequations.net
   - DOMAIN,servedby.o2.co.uk
-  - DOMAIN,v10.xmlsearch.miva.com #[Adware.Zeno]
+  - DOMAIN,v10.xmlsearch.miva.com
   - DOMAIN,partners.10bet.com
   - DOMAIN,affiliates.bet-at-home.com
   - DOMAIN,sportingbeteur.adsrv.eacdn.com
   - DOMAIN,partners.fanduel.com
-  - DOMAIN,banner.goldenpalace.com #[Tracking.Cookie]
+  - DOMAIN,banner.goldenpalace.com
   - DOMAIN,affiliates.neteller.com
   - DOMAIN,affiliates.pinnaclesports.com
   - DOMAIN,partner.sbaffiliates.com
@@ -103983,7 +103983,7 @@ payload:
   - DOMAIN,pk.adlandpro.com
   - DOMAIN,te.adlandpro.com
   - DOMAIN,trafficex.adlandpro.com
-  - DOMAIN,www.adlandpro.com #[Tracking.Cookie]
+  - DOMAIN,www.adlandpro.com
   - DOMAIN,www.errornuker.com
   - DOMAIN,www.evidencenuker.com
   - DOMAIN,spamnuker.com
@@ -104005,10 +104005,10 @@ payload:
   - DOMAIN,www.adregistry.com
   - DOMAIN,www.mediareps.com
   - DOMAIN,tools.naughtyamerica.com
-  - DOMAIN,www.secretbehindporn.com #[ScamFraudAlert.Pharmacy]
+  - DOMAIN,www.secretbehindporn.com
   - DOMAIN,vmn.net
   - DOMAIN,sony.tcliveus.com
-  - DOMAIN,tc.zionsbank.com #[zionsbank.tcliveus.com]
+  - DOMAIN,tc.zionsbank.com
   - DOMAIN,realtimeads.com
   - DOMAIN,ads.eqads.com
   - DOMAIN,e-ads.eqads.com
@@ -104021,7 +104021,7 @@ payload:
   - DOMAIN,tracking.1betternetwork.com
   - DOMAIN,cpatrack.leadn.com
   - DOMAIN,tracking.opienetwork.com
-  - DOMAIN,www.adminder.com #[Tracking.Cookie]
+  - DOMAIN,www.adminder.com
   - DOMAIN,analytics.atomiconline.com
   - DOMAIN,widget.crowdignite.com
   - DOMAIN,geo.gorillanation.com
@@ -104048,7 +104048,7 @@ payload:
   - DOMAIN,cz8.clickzs.com
   - DOMAIN,cz9.clickzs.com
   - DOMAIN,cz11.clickzs.com
-  - DOMAIN,js3.clickzs.com #[Tracking.Cookie]
+  - DOMAIN,js3.clickzs.com
   - DOMAIN,js4.clickzs.com
   - DOMAIN,js5.clickzs.com
   - DOMAIN,js6.clickzs.com
@@ -104095,7 +104095,7 @@ payload:
   - DOMAIN,www.ariboo.com
   - DOMAIN,ads.globescale.com
   - DOMAIN,cursor.kvada.globescale.com
-  - DOMAIN,cetrk.com #[Crazy Egg]
+  - DOMAIN,cetrk.com
   - DOMAIN,crazyegg.com
   - DOMAIN,ads.kyalon.net
   - DOMAIN,ads.netsol.com
@@ -104115,7 +104115,7 @@ payload:
   - DOMAIN,ad.sgdgjarfpp123.com
   - DOMAIN,play.sunmediaads.com
   - DOMAIN,adnet.asahi.com
-  - DOMAIN,stats.bbc.co.uk #[may affect iPlayer app]
+  - DOMAIN,stats.bbc.co.uk
   - DOMAIN,visualscience.external.bbc.co.uk
   - DOMAIN,ads.bcnewsgroup.com
   - DOMAIN,ads.bninews.com
@@ -104133,12 +104133,12 @@ payload:
   - DOMAIN,advertising.illinimedia.com
   - DOMAIN,mouads.com
   - DOMAIN,ads.nytimes.com
-  - DOMAIN,up.nytimes.com #[WebBug][About.com]
+  - DOMAIN,up.nytimes.com
   - DOMAIN,webtrends.randallpub.com
   - DOMAIN,ads.rttnews.com
-  - DOMAIN,gannett.gcion.com #[glb.adtechus.com]
+  - DOMAIN,gannett.gcion.com
   - DOMAIN,bestoffers.activeshopper.com
-  - DOMAIN,e-zshopper.activeshopper.com #[Adware.ActivShop]
+  - DOMAIN,e-zshopper.activeshopper.com
   - DOMAIN,mini.activeshopper.com
   - DOMAIN,mobile.activeshopper.com
   - DOMAIN,uk.activeshopper.com
@@ -104162,13 +104162,13 @@ payload:
   - DOMAIN,pixel1097.everesttech.net
   - DOMAIN,pixel1324.everesttech.net
   - DOMAIN,pixel1350.everesttech.net
-  - DOMAIN,pixel1370.everesttech.net #[WebBug]
+  - DOMAIN,pixel1370.everesttech.net
   - DOMAIN,pixel1553.everesttech.net
   - DOMAIN,pixel1739.everesttech.net
   - DOMAIN,ads.mediatwo.com
   - DOMAIN,mads.dailymail.co.uk
   - DOMAIN,in-cdn.effectivemeasure.net
-  - DOMAIN,stags.peer39.net #[PrivacyChoice.Tracker]
+  - DOMAIN,stags.peer39.net
   - DOMAIN,www.zipitfast.com
   - DOMAIN,ads.drugs.com
   - DOMAIN,www.tsgonline.com
@@ -104303,7 +104303,7 @@ payload:
   - DOMAIN,myfamilyancestry.112.2o7.net
   - DOMAIN,nautilus.122.2o7.net
   - DOMAIN,tirerackcom.112.2o7.net
-  - DOMAIN,stats.esomniture.com #[Tracking.Cookie]
+  - DOMAIN,stats.esomniture.com
   - DOMAIN,www.omniture.com
   - DOMAIN,www.touchclarity.com
   - DOMAIN,nossl.aafp.org
@@ -104335,7 +104335,7 @@ payload:
   - DOMAIN,metrics.babycentre.co.uk
   - DOMAIN,stats.backcountry.com
   - DOMAIN,omni.basspro.com
-  - DOMAIN,sa.bbc.co.uk #[may affect iPlayer app]
+  - DOMAIN,sa.bbc.co.uk
   - DOMAIN,metrics.beachbody.com
   - DOMAIN,a.beliefnet.com
   - DOMAIN,metrics.bet.com
@@ -104546,9 +104546,9 @@ payload:
   - DOMAIN,webstats.volvo.com
   - DOMAIN,stats.voyages-sncf.com
   - DOMAIN,stats.vulture.com
-  - DOMAIN,wa.and.co.uk #[b.scorecardresearch.com]
+  - DOMAIN,wa.and.co.uk
   - DOMAIN,webanalyticsnossl.websense.com
-  - DOMAIN,std.o.webmd.com #[Web Bug]
+  - DOMAIN,std.o.webmd.com
   - DOMAIN,metrics.which.co.uk
   - DOMAIN,stats2.wmagazine.com
   - DOMAIN,an.worldbaseballclassic.com
@@ -104700,7 +104700,7 @@ payload:
   - DOMAIN,tracking.hittail.com
   - DOMAIN,tracking2.hittail.com
   - DOMAIN,ads.neudesicmediagroup.com
-  - DOMAIN,domainsponsor.com #[Tracking.Cookie][WIPO.D2006-0523]
+  - DOMAIN,domainsponsor.com
   - DOMAIN,images.domainsponsor.com
   - DOMAIN,spi.domainsponsor.com
   - DOMAIN,dsparking.com
@@ -104732,7 +104732,7 @@ payload:
   - DOMAIN,fo-api.omnitagjs.com
   - DOMAIN,analytics.safelinking.net
   - DOMAIN,stabx.net
-  - DOMAIN,st-1.1fichier.com #[Piwik.Analytics]
+  - DOMAIN,st-1.1fichier.com
   - DOMAIN,adbanner.adxcore.com
   - DOMAIN,l.adxcore.com
   - DOMAIN,ad.adxcore.com
@@ -104769,9 +104769,9 @@ payload:
   - DOMAIN,zbiornik.com
   - DOMAIN,adbard.net
   - DOMAIN,cache.adviva.net
-  - DOMAIN,cdn.amgdgt.com #[WebBug]
+  - DOMAIN,cdn.amgdgt.com
   - DOMAIN,js.bizographics.com
-  - DOMAIN,images.ddc.com #[Parking Service]
+  - DOMAIN,images.ddc.com
   - DOMAIN,cdn.firstlook.com
   - DOMAIN,m2.fwmrm.net
   - DOMAIN,cache.gfrevenge.com
@@ -104781,7 +104781,7 @@ payload:
   - DOMAIN,cache.specificmedia.com
   - DOMAIN,cdn.undertone.com
   - DOMAIN,cm.eyereturn.com
-  - DOMAIN,return.uk.domainnamesales.com #[Parking.Service]
+  - DOMAIN,return.uk.domainnamesales.com
   - DOMAIN,internettraffic.click
   - DOMAIN,appie.com
   - DOMAIN,btprmnav.com
@@ -104807,7 +104807,7 @@ payload:
   - DOMAIN,bank11.ads.dt.mydas.mobi
   - DOMAIN,bank12.ads.dt.mydas.mobi
   - DOMAIN,bank13.ads.dt.mydas.mobi
-  - DOMAIN,bank15.ads.dt.mydas.mobi #[Mobile.Advertising]
+  - DOMAIN,bank15.ads.dt.mydas.mobi
   - DOMAIN,bank16.ads.dt.mydas.mobi
   - DOMAIN,bank17.ads.dt.mydas.mobi
   - DOMAIN,bank18.ads.dt.mydas.mobi
@@ -104841,7 +104841,7 @@ payload:
   - DOMAIN,ab159015.adbutler-zilon.com
   - DOMAIN,www.countmypage.com
   - DOMAIN,pix.lfstmedia.com
-  - DOMAIN,map.media6degrees.com #[WebBug]
+  - DOMAIN,map.media6degrees.com
   - DOMAIN,d6y5.ads.pof.com
   - DOMAIN,t.ads.pof.com
   - DOMAIN,clickserv.sitescout.com
@@ -104850,7 +104850,7 @@ payload:
   - DOMAIN,connexionsafe.com
   - DOMAIN,geo.crtracklink.com
   - DOMAIN,www.thepornsurvey.com
-  - DOMAIN,banner.titanpoker.com #[Adware.Casino]
+  - DOMAIN,banner.titanpoker.com
   - DOMAIN,coolinc.info
   - DOMAIN,www.mb57.com
   - DOMAIN,d.adgear.com
@@ -104859,17 +104859,17 @@ payload:
   - DOMAIN,members.sexroulette.com
   - DOMAIN,bb.o2.eyereturn.com
   - DOMAIN,musicmembersarea.com
-  - DOMAIN,www.apponic.com #[Win32/InstallCore.NR]
+  - DOMAIN,www.apponic.com
   - DOMAIN,www.adelixir.com
   - DOMAIN,geo.connexionsecure.com
   - DOMAIN,eyereact.eyereturn.com
   - DOMAIN,o2.eyereturn.com
   - DOMAIN,voken.eyereturn.com
   - DOMAIN,geo.hyperlinksecure.com
-  - DOMAIN,stats.polldaddy.com #[stats.wordpress.com]
+  - DOMAIN,stats.polldaddy.com
   - DOMAIN,geo.safelinktracker.com
   - DOMAIN,www.webmoblink.com
-  - DOMAIN,botd.wordpress.com #[WebBug]
+  - DOMAIN,botd.wordpress.com
   - DOMAIN,stats.wordpress.com
   - DOMAIN,www.adloader.com
   - DOMAIN,ads.adtrustmedia.com
@@ -104910,8 +104910,8 @@ payload:
   - DOMAIN,www.bnmq.com
   - DOMAIN,cnomy.com
   - DOMAIN,pics.cnomy.com
-  - DOMAIN,pics.kolmic.com #[Parking Service]
-  - DOMAIN,searchignited.com #[Parking.Service]
+  - DOMAIN,pics.kolmic.com
+  - DOMAIN,searchignited.com
   - DOMAIN,banner.eurogrand.com
   - DOMAIN,search.keywordblocks.com
   - DOMAIN,www.mnetads.com
@@ -104925,7 +104925,7 @@ payload:
   - DOMAIN,www.edge.quantserve.com
   - DOMAIN,flash.quantserve.com
   - DOMAIN,segapi.quantserve.com
-  - DOMAIN,get.whitesmoke.com #[Adware.Zugo.B]
+  - DOMAIN,get.whitesmoke.com
   - DOMAIN,www.whitesmoke.com
   - DOMAIN,www.whitesmoke.us
   - DOMAIN,ak1.abmr.net
@@ -104938,7 +104938,7 @@ payload:
   - DOMAIN,users.effectivebrand.com
   - DOMAIN,cookies.cmpnet.com
   - DOMAIN,ccc00.opinionlab.com
-  - DOMAIN,ccc01.opinionlab.com #[msn.com]
+  - DOMAIN,ccc01.opinionlab.com
   - DOMAIN,rate.opinionlab.com
   - DOMAIN,www.opinionlab.com
   - DOMAIN,csma95349.analytics.edgesuite.net
@@ -104962,7 +104962,7 @@ payload:
   - DOMAIN,live.monitus.net
   - DOMAIN,log.olark.com
   - DOMAIN,banners.brinkin.com
-  - DOMAIN,adsrv.ea.com #[affects Battlefield]
+  - DOMAIN,adsrv.ea.com
   - DOMAIN,adx.ibibo.com
   - DOMAIN,www.pixeltrack66.com
   - DOMAIN,px.steelhousemedia.com
@@ -104993,10 +104993,10 @@ payload:
   - DOMAIN,www.trkr1.com
   - DOMAIN,q1mediahydraplatform.com
   - DOMAIN,123count.com
-  - DOMAIN,www.123count.com #[Tracking.Cookie]
+  - DOMAIN,www.123count.com
   - DOMAIN,www.123stat.com
   - DOMAIN,www.countercentral.com
-  - DOMAIN,web-stat.com #[Tracking.Cookie]
+  - DOMAIN,web-stat.com
   - DOMAIN,server3.web-stat.com
   - DOMAIN,server4.web-stat.com
   - DOMAIN,www.web-stat.com
@@ -105030,8 +105030,8 @@ payload:
   - DOMAIN,www.textlinkads.com
   - DOMAIN,secure.w3track.com
   - DOMAIN,sinettrk.com
-  - DOMAIN,b.sli-spark.com #[affects pccasegear.com / mwave.com.au]
-  - DOMAIN,track.childrensalon.com #[Piwik.Analytics]
+  - DOMAIN,b.sli-spark.com
+  - DOMAIN,track.childrensalon.com
   - DOMAIN,track.webgains.com
   - DOMAIN,ads.adhsm.adhese.com
   - DOMAIN,ads.nrc.adhese.com
@@ -105083,10 +105083,10 @@ payload:
   - DOMAIN,pm.adsafeprotected.com
   - DOMAIN,adlik.akavita.com
   - DOMAIN,www.hobwelt.com
-  - DOMAIN,addfreestats.com #[WebBug]
+  - DOMAIN,addfreestats.com
   - DOMAIN,top.addfreestats.com
   - DOMAIN,www.addfreestats.com
-  - DOMAIN,www1.addfreestats.com #[Tracking.Cookie]
+  - DOMAIN,www1.addfreestats.com
   - DOMAIN,www2.addfreestats.com
   - DOMAIN,www3.addfreestats.com
   - DOMAIN,www4.addfreestats.com
@@ -105102,14 +105102,14 @@ payload:
   - DOMAIN,udm.ia7.scorecardresearch.com
   - DOMAIN,sa.scorecardresearch.com
   - DOMAIN,banners.weboverdrive.com
-  - DOMAIN,ads.tripod.com #[Tracking.Cookie]
+  - DOMAIN,ads.tripod.com
   - DOMAIN,ads1.tripod.com
   - DOMAIN,nedstat.tripod.com
   - DOMAIN,cm8.lycos.com
   - DOMAIN,images-aud.freshmeat.net
   - DOMAIN,images-aud.slashdot.org
   - DOMAIN,e89.friendfinder.com
-  - DOMAIN,analytics.slashdotmedia.com #[Piwik.Analytics]
+  - DOMAIN,analytics.slashdotmedia.com
   - DOMAIN,images-aud.sourceforge.net
   - DOMAIN,events.webflowmetrics.com
   - DOMAIN,alt.webtraxs.com
@@ -105118,9 +105118,9 @@ payload:
   - DOMAIN,spd.atdmt.speedera.net
   - DOMAIN,images.specificclick.net
   - DOMAIN,specificpop.com
-  - DOMAIN,www.specificpop.com #[Tracking.Cookie]
+  - DOMAIN,www.specificpop.com
   - DOMAIN,hitslink.com
-  - DOMAIN,counter.hitslink.com #[Tracking.Cookie]
+  - DOMAIN,counter.hitslink.com
   - DOMAIN,counter2.hitslink.com
   - DOMAIN,profiles.hitslink.com
   - DOMAIN,www2.hitslink.com
@@ -105186,7 +105186,7 @@ payload:
   - DOMAIN,pagetracking.popmarker.com
   - DOMAIN,prpops.com
   - DOMAIN,prscripts.com
-  - DOMAIN,www.intelli-direct.com #[WebBug]
+  - DOMAIN,www.intelli-direct.com
   - DOMAIN,adserver1.backbeatmedia.com
   - DOMAIN,adserver1-images.backbeatmedia.com
   - DOMAIN,bullseye.backbeatmedia.com
@@ -105196,13 +105196,13 @@ payload:
   - DOMAIN,track.justcloud.com
   - DOMAIN,www.liveadclicks.com
   - DOMAIN,pix.impdesk.com
-  - DOMAIN,tally.upsideout.com #[Piwik.Analytics]
+  - DOMAIN,tally.upsideout.com
   - DOMAIN,www.virtualsurfer.com
   - DOMAIN,www.youho.com
   - DOMAIN,a.gsmarena.com
   - DOMAIN,tracksitetraffic1.com
   - DOMAIN,www.universal-traffic.com
-  - DOMAIN,offers.cloackp.com #[ScamFraudAlert.Antispyware]
+  - DOMAIN,offers.cloackp.com
   - DOMAIN,codice.shinystat.com
   - DOMAIN,codicebusiness.shinystat.com
   - DOMAIN,codicefl.shinystat.com
@@ -105215,17 +105215,17 @@ payload:
   - DOMAIN,www.shinystat.com
   - DOMAIN,didtheyreadit.com
   - DOMAIN,www.didtheyreadit.com
-  - DOMAIN,www.readnotify.com #[Email Tracker]
+  - DOMAIN,www.readnotify.com
   - DOMAIN,xpostmail.com
   - DOMAIN,ia.spinbox.net
   - DOMAIN,netcomm.spinbox.net
   - DOMAIN,vsii.spinbox.net
   - DOMAIN,www.spinbox.net
-  - DOMAIN,adtegrity.spinbox.net #[Tracking.Cookie]
+  - DOMAIN,adtegrity.spinbox.net
   - DOMAIN,ad.bannerhost.ru
   - DOMAIN,ad2.bannerhost.ru
   - DOMAIN,ads.photosight.ru
-  - DOMAIN,ad.yadro.ru #[Tracking.Cookie]
+  - DOMAIN,ad.yadro.ru
   - DOMAIN,ads.yadro.ru
   - DOMAIN,sticker.yadro.ru
   - DOMAIN,upstats.yadro.ru
@@ -105327,7 +105327,7 @@ payload:
   - DOMAIN,www.counters4u.com
   - DOMAIN,gostats.com
   - DOMAIN,c1.gostats.com
-  - DOMAIN,c2.gostats.com #[Tracking.Cookie]
+  - DOMAIN,c2.gostats.com
   - DOMAIN,c3.gostats.com
   - DOMAIN,c4.gostats.com
   - DOMAIN,monster.gostats.com
@@ -105382,28 +105382,28 @@ payload:
   - DOMAIN,www.mypagerank.net
   - DOMAIN,obeus.com
   - DOMAIN,srv.sayyac.com
-  - DOMAIN,by.uservoice.com #[WebBug]
+  - DOMAIN,by.uservoice.com
   - DOMAIN,www.vizury.com
   - DOMAIN,window1.com
   - DOMAIN,scripts.sophus3.com
   - DOMAIN,gm.touchclarity.com
   - DOMAIN,adv.aport.ru
   - DOMAIN,stat.aport.ru
-  - DOMAIN,stat.stars.ru #[WebBug]
+  - DOMAIN,stat.stars.ru
   - DOMAIN,engine.rbc.medialand.ru
   - DOMAIN,ads.standartnews.com
   - DOMAIN,openx.bmwpower-bg.net
   - DOMAIN,js.adlink.net
-  - DOMAIN,tc.adlink.net #[WebBug]
+  - DOMAIN,tc.adlink.net
   - DOMAIN,ads.dichtbij.adhese.com
   - DOMAIN,pool.dichtbij.adhese.com
   - DOMAIN,c.statcounter.com
-  - DOMAIN,c1.statcounter.com #[Tracking.Cookie]
-  - DOMAIN,c2.statcounter.com #[WebBug]
+  - DOMAIN,c1.statcounter.com
+  - DOMAIN,c2.statcounter.com
   - DOMAIN,c3.statcounter.com
   - DOMAIN,c4.statcounter.com
   - DOMAIN,c5.statcounter.com
-  - DOMAIN,c6.statcounter.com #[Analytics.Tracker]
+  - DOMAIN,c6.statcounter.com
   - DOMAIN,c7.statcounter.com
   - DOMAIN,c8.statcounter.com
   - DOMAIN,c10.statcounter.com
@@ -105483,10 +105483,10 @@ payload:
   - DOMAIN,cashengines.com
   - DOMAIN,click.cashengines.com
   - DOMAIN,www.cashengines.com
-  - DOMAIN,qrcdownload.ibcustomerzone.com #[dware.QUADRegClean]
+  - DOMAIN,qrcdownload.ibcustomerzone.com
   - DOMAIN,click.interactivebrands.com
   - DOMAIN,safepay2.interactivebrands.com
-  - DOMAIN,www.interactivebrands.com #[SpyEraser]
+  - DOMAIN,www.interactivebrands.com
   - DOMAIN,download2.marketengines.com
   - DOMAIN,secure.marketengines.com
   - DOMAIN,secure3.marketengines.com
@@ -105574,7 +105574,7 @@ payload:
   - DOMAIN,impes.tradedoubler.com
   - DOMAIN,impfi.tradedoubler.com
   - DOMAIN,impfr.tradedoubler.com
-  - DOMAIN,impgb.tradedoubler.com #[WebBug]
+  - DOMAIN,impgb.tradedoubler.com
   - DOMAIN,impie.tradedoubler.com
   - DOMAIN,impit.tradedoubler.com
   - DOMAIN,implt.tradedoubler.com
@@ -105588,14 +105588,14 @@ payload:
   - DOMAIN,tbs.tradedoubler.com
   - DOMAIN,tracker.tradedoubler.com
   - DOMAIN,wrap.tradedoubler.com
-  - DOMAIN,active.cache.el-mundo.net #[Omniture]
+  - DOMAIN,active.cache.el-mundo.net
   - DOMAIN,anetno.tradedoubler.com
   - DOMAIN,stardk.tradedoubler.com
   - DOMAIN,tarno.tradedoubler.com
   - DOMAIN,24counter.com
   - DOMAIN,dev.flurry.com
-  - DOMAIN,da.newstogram.com #[WebBug]
-  - DOMAIN,redirectingat.com #[SkimLinks]
+  - DOMAIN,da.newstogram.com
+  - DOMAIN,redirectingat.com
   - DOMAIN,the-best-track.com
   - DOMAIN,advertising.thediabetesnetwork.com
   - DOMAIN,w-tres.info
@@ -105607,7 +105607,7 @@ payload:
   - DOMAIN,www.persianstat.com
   - DOMAIN,as.gostats.com
   - DOMAIN,ded.gostats.com
-  - DOMAIN,adopt.specificclick.net #[Tracking.Cookie]
+  - DOMAIN,adopt.specificclick.net
   - DOMAIN,afe.specificclick.net
   - DOMAIN,bp.specificclick.net
   - DOMAIN,dg.specificclick.net
@@ -105623,7 +105623,7 @@ payload:
   - DOMAIN,www.traffic4u.com
   - DOMAIN,cm3.bnmq.com
   - DOMAIN,images.bnmq.com
-  - DOMAIN,search.in #[Parking Service]
+  - DOMAIN,search.in
   - DOMAIN,g.adspeed.net
   - DOMAIN,www.dating-banners.com
   - DOMAIN,ad4.gueb.com
@@ -105631,7 +105631,7 @@ payload:
   - DOMAIN,ext.host-tracker.com
   - DOMAIN,ads.loveshack.org
   - DOMAIN,www.megastats.com
-  - DOMAIN,search2007.info #[Spamdexing]
+  - DOMAIN,search2007.info
   - DOMAIN,banner.techarp.com
   - DOMAIN,webads.tradeholding.com
   - DOMAIN,counter.relmaxtop.com
@@ -105657,7 +105657,7 @@ payload:
   - DOMAIN,www.adszooks.com
   - DOMAIN,www.adultlinkexchange.com
   - DOMAIN,www.commissionempire.com
-  - DOMAIN,server.cpmstar.com #[ads.shizmoo.com]
+  - DOMAIN,server.cpmstar.com
   - DOMAIN,easyhitcounters.com
   - DOMAIN,beta.easyhitcounters.com
   - DOMAIN,fishclix.com
@@ -105675,11 +105675,11 @@ payload:
   - DOMAIN,silveragesoftware.com
   - DOMAIN,www.silveragesoftware.com
   - DOMAIN,counter.yakbucks.com
-  - DOMAIN,www.3bsoftware.com #[Spyware Protection Pro]
+  - DOMAIN,www.3bsoftware.com
   - DOMAIN,bunny-net.com
   - DOMAIN,www.cbproads.com
   - DOMAIN,www.handyarchive.com
-  - DOMAIN,pulsix.com #[maxalbums.com]
+  - DOMAIN,pulsix.com
   - DOMAIN,www.pulsix.com
   - DOMAIN,landing.trafficz.com
   - DOMAIN,landings.trafficz.com
@@ -105687,7 +105687,7 @@ payload:
   - DOMAIN,ads.as4x.tmcs.ticketmaster.com
   - DOMAIN,ads.as4x.tmcs.net
   - DOMAIN,ma211-r.analytics.edgesuite.net
-  - DOMAIN,sitestats.tiscali.co.uk #[WebBug]
+  - DOMAIN,sitestats.tiscali.co.uk
   - DOMAIN,au-cdn.effectivemeasure.net
   - DOMAIN,ma76-r.analytics.edgesuite.net
   - DOMAIN,c.effectivemeasure.net
@@ -105696,9 +105696,9 @@ payload:
   - DOMAIN,sg-cdn.effectivemeasure.net
   - DOMAIN,fast.fairfax.demdex.net
   - DOMAIN,tiads.timeinc.net
-  - DOMAIN,piwik.datawrapper.de #[Piwik.Analytics]
+  - DOMAIN,piwik.datawrapper.de
   - DOMAIN,tags.expo9.exponential.com
-  - DOMAIN,tribalfusion.com #[Tracking.Cookie]
+  - DOMAIN,tribalfusion.com
   - DOMAIN,cdn1.tribalfusion.com
   - DOMAIN,cdn5.tribalfusion.com
   - DOMAIN,cdnx.tribalfusion.com
@@ -105709,7 +105709,7 @@ payload:
   - DOMAIN,a.websponsors.com
   - DOMAIN,g.websponsors.com
   - DOMAIN,www.cash4members.com
-  - DOMAIN,privatamateure.com #[Sagnet Group]
+  - DOMAIN,privatamateure.com
   - DOMAIN,webmaster.privatamateure.com
   - DOMAIN,www.privatamateure.com
   - DOMAIN,gbscript.com
@@ -105720,14 +105720,14 @@ payload:
   - DOMAIN,adnet.pravda.com.ua
   - DOMAIN,a.abnad.net
   - DOMAIN,b.abnad.net
-  - DOMAIN,c.abnad.net #[Tracking.Cookie]
+  - DOMAIN,c.abnad.net
   - DOMAIN,d.abnad.net
   - DOMAIN,e.abnad.net
   - DOMAIN,t.abnad.net
   - DOMAIN,z.abnad.net
   - DOMAIN,advert.ru.redtram.com
   - DOMAIN,img2.ru.redtram.com
-  - DOMAIN,js.redtram.com #[RedTramCookies]
+  - DOMAIN,js.redtram.com
   - DOMAIN,js.ru.redtram.com
   - DOMAIN,n4p.ru.redtram.com
   - DOMAIN,relestar.com
@@ -105738,16 +105738,16 @@ payload:
   - DOMAIN,banner.50megs.com
   - DOMAIN,aboutwebservices.com
   - DOMAIN,ad.aboutwebservices.com
-  - DOMAIN,downloadz.us #[Spamdexing]
+  - DOMAIN,downloadz.us
   - DOMAIN,free-stats.com
   - DOMAIN,freestats.com
   - DOMAIN,banner.freeservers.com
-  - DOMAIN,eegad.freeservers.com #[Tracking.Cookie]
+  - DOMAIN,eegad.freeservers.com
   - DOMAIN,abbyssh.freestats.com
   - DOMAIN,insurancejournal.freestats.com
   - DOMAIN,sitetracker.com
   - DOMAIN,www.sitetracker.com
-  - DOMAIN,cyclops.prod.untd.com #[RealMedia]
+  - DOMAIN,cyclops.prod.untd.com
   - DOMAIN,nztv.prod.untd.com
   - DOMAIN,track.untd.com
   - DOMAIN,adv.drtuber.com
@@ -105770,34 +105770,34 @@ payload:
   - DOMAIN,ads.adagent.chacha.com
   - DOMAIN,adecn-w.atdmt.com
   - DOMAIN,srch.atdmt.com
-  - DOMAIN,atlasdmt.com #[Tracking.Cookie]
+  - DOMAIN,atlasdmt.com
   - DOMAIN,www.atlasdmt.com
   - DOMAIN,www.avenuea.com
   - DOMAIN,ads.bidclix.com
   - DOMAIN,www.bidclix.com
   - DOMAIN,serving.xxxwebtraffic.com
-  - DOMAIN,www.afcyhf.com #[WebBug]
+  - DOMAIN,www.afcyhf.com
   - DOMAIN,www.anrdoezrs.net
   - DOMAIN,mp.apmebf.com
-  - DOMAIN,www.apmebf.com #[Tracking.Cookie]
-  - DOMAIN,www.awltovhc.com #[WebBug]
-  - DOMAIN,www.commission-junction.com #[Tracking.Cookie]
+  - DOMAIN,www.apmebf.com
+  - DOMAIN,www.awltovhc.com
+  - DOMAIN,www.commission-junction.com
   - DOMAIN,www.dpbolvw.net
   - DOMAIN,www.emjcd.com
-  - DOMAIN,www.ftjcfx.com #[WebBug]
+  - DOMAIN,www.ftjcfx.com
   - DOMAIN,www.jdoqocy.com
   - DOMAIN,www.kqzyfj.com
-  - DOMAIN,www.lduhtrp.net #[WebBug]
+  - DOMAIN,www.lduhtrp.net
   - DOMAIN,qksrv.com
-  - DOMAIN,www.qksrv.net #[Tracking.Cookie]
+  - DOMAIN,www.qksrv.net
   - DOMAIN,www.qksz.net
   - DOMAIN,www.tkqlhce.com
-  - DOMAIN,www.tqlkg.com #[WebBug]
+  - DOMAIN,www.tqlkg.com
   - DOMAIN,csp.fastclick.net
   - DOMAIN,cdn.mplxtms.com
   - DOMAIN,n.mplxtms.com
   - DOMAIN,t.mplxtms.com
-  - DOMAIN,imgserv.adbutler.com #[Tracking.Cookie]
+  - DOMAIN,imgserv.adbutler.com
   - DOMAIN,servedbyadbutler.com
   - DOMAIN,adrotator.com
   - DOMAIN,www.adrotator.com
@@ -105809,13 +105809,13 @@ payload:
   - DOMAIN,exchange.xbiz.com
   - DOMAIN,data.cmcore.com
   - DOMAIN,analytics.harpercollins.com
-  - DOMAIN,log.aebn.net #[WebBug.eluminate]
+  - DOMAIN,log.aebn.net
   - DOMAIN,www3.bloomingdales.com
   - DOMAIN,cmd.customink.com
   - DOMAIN,mv.treehousei.com
   - DOMAIN,beacon.lijit.com
   - DOMAIN,www.lijit.com
-  - DOMAIN,www.hugedomains.com #[Parking Service]
+  - DOMAIN,www.hugedomains.com
   - DOMAIN,www.dicarlotrack.com
   - DOMAIN,tracking.gajmp.com
   - DOMAIN,www.leadtrackgo.com
@@ -106571,9 +106571,9 @@ payload:
   - DOMAIN,api.adrenalads.com
   - DOMAIN,f.blogads.com
   - DOMAIN,g.blogads.com
-  - DOMAIN,st.blogads.com #[WebBug]
+  - DOMAIN,st.blogads.com
   - DOMAIN,weblog.blogads.com
-  - DOMAIN,t.blogreaderproject.com #[WebBug]
+  - DOMAIN,t.blogreaderproject.com
   - DOMAIN,ads.exactseek.com
   - DOMAIN,ads.pressflex.com
   - DOMAIN,adserver.pressflex.com
@@ -106581,14 +106581,14 @@ payload:
   - DOMAIN,www.projectwonderful.com
   - DOMAIN,mydmp.exelator.com
   - DOMAIN,banners.absolpublisher.com
-  - DOMAIN,stat.blogads.com #[WebBug]
+  - DOMAIN,stat.blogads.com
   - DOMAIN,www.blogads.com
   - DOMAIN,adms.physorg.com
   - DOMAIN,loadeu.exelator.com
   - DOMAIN,ads.imgur.com
   - DOMAIN,tracking.m6r.eu
   - DOMAIN,z.blogads.com
-  - DOMAIN,p.raasnet.com #[WebBug]
+  - DOMAIN,p.raasnet.com
   - DOMAIN,ads.sfomedia.com
   - DOMAIN,stats.twistage.com
   - DOMAIN,stat.delo.ua
@@ -106602,9 +106602,9 @@ payload:
   - DOMAIN,092706152958.c.mystat-in.net
   - DOMAIN,102106151057.c.mystat-in.net
   - DOMAIN,112006133326.c.mystat-in.net
-  - DOMAIN,14713804a.l2m.net #[Tracking.Cookie]
-  - DOMAIN,30280827a.l2m.net #[WebBug]
-  - DOMAIN,jmm.livestat.com #[Tracking.Cookie]
+  - DOMAIN,14713804a.l2m.net
+  - DOMAIN,30280827a.l2m.net
+  - DOMAIN,jmm.livestat.com
   - DOMAIN,www.livestat.com
   - DOMAIN,analytics.clickpathmedia.com
   - DOMAIN,trafficads.com
@@ -106627,7 +106627,7 @@ payload:
   - DOMAIN,pl1978.puhtml.com
   - DOMAIN,pl106067.puhtml.com
   - DOMAIN,pl107977.puhtml.com
-  - DOMAIN,pl108062.puhtml.com #[Terriclicks]
+  - DOMAIN,pl108062.puhtml.com
   - DOMAIN,pl109504.puhtml.com
   - DOMAIN,pl137937.puhtml.com
   - DOMAIN,pl176754.puhtml.com
@@ -106677,7 +106677,7 @@ payload:
   - DOMAIN,ads.depositfiles.com
   - DOMAIN,jsn.dt00.net
   - DOMAIN,dvdhentai.net
-  - DOMAIN,www.fhserve.com #[OpenX]
+  - DOMAIN,www.fhserve.com
   - DOMAIN,secure.fhserve.com
   - DOMAIN,imgn.marketgid.com
   - DOMAIN,jsn.marketgid.com
@@ -106714,13 +106714,13 @@ payload:
   - DOMAIN,static.traffic.ru
   - DOMAIN,wonderlandads.com
   - DOMAIN,xxxreactor.com
-  - DOMAIN,webclients.net #[Webclients Ad Network]
+  - DOMAIN,webclients.net
   - DOMAIN,www.webclients.net
   - DOMAIN,websponsors.com
   - DOMAIN,ocs.websponsors.com
   - DOMAIN,www.websponsors.com
-  - DOMAIN,bi.medscape.com #[WebBug][affects Medscape app]
-  - DOMAIN,adv.medscape.com #[ads.webmd.com]
+  - DOMAIN,bi.medscape.com
+  - DOMAIN,adv.medscape.com
   - DOMAIN,as.medscape.com
   - DOMAIN,adv.webmd.com
   - DOMAIN,as.webmd.com
@@ -106732,11 +106732,11 @@ payload:
   - DOMAIN,pmetrics.performancing.com
   - DOMAIN,verivox01.webtrekk.net
   - DOMAIN,www.webtrends.net
-  - DOMAIN,webtrendslive.com #[SmartSource Data Collector]
+  - DOMAIN,webtrendslive.com
   - DOMAIN,rd.clickshift.com
-  - DOMAIN,wt.o.nytimes.com #[WebBug]
-  - DOMAIN,statse.webtrendslive.com #[SDC Advanced Tracking Code]
-  - DOMAIN,dcs.wtlive.com #[Tracking.Cookie]
+  - DOMAIN,wt.o.nytimes.com
+  - DOMAIN,statse.webtrendslive.com
+  - DOMAIN,dcs.wtlive.com
   - DOMAIN,dcstest.wtlive.com
   - DOMAIN,wtrs.101com.com
   - DOMAIN,sdc.acc.org
@@ -106802,9 +106802,9 @@ payload:
   - DOMAIN,no.adserver.yahoo.com
   - DOMAIN,gambling911.adrevolver.com
   - DOMAIN,aps.media.adrevolver.com
-  - DOMAIN,media.adrevolver.com #[Tracking.Cookie]
+  - DOMAIN,media.adrevolver.com
   - DOMAIN,track.adrevolver.com
-  - DOMAIN,hostingprod.com #[WebBug]
+  - DOMAIN,hostingprod.com
   - DOMAIN,nol.yahoo.com
   - DOMAIN,ts.richmedia.yahoo.com
   - DOMAIN,ad.foxnetworks.com
@@ -106822,24 +106822,24 @@ payload:
   - DOMAIN,tw2.adserver.yahoo.com
   - DOMAIN,launch.adserver.yahoo.com
   - DOMAIN,mx.adserver.yahoo.com
-  - DOMAIN,adinterax.com #[Tracking.Cookie]
+  - DOMAIN,adinterax.com
   - DOMAIN,www.adinterax.com
   - DOMAIN,np.lexity.com
-  - DOMAIN,beap.adx.yahoo.com #[WebBug]
+  - DOMAIN,beap.adx.yahoo.com
   - DOMAIN,ac.ybinst0.ec.yimg.com
   - DOMAIN,ac.ybinst1.ec.yimg.com
   - DOMAIN,ac.ybinst2.ec.yimg.com
   - DOMAIN,ac.ybinst3.ec.yimg.com
   - DOMAIN,ac.ybinst4.ec.yimg.com
   - DOMAIN,ac.ybinst5.ec.yimg.com
-  - DOMAIN,ac.ybinst6.ec.yimg.com #[WebBug]
+  - DOMAIN,ac.ybinst6.ec.yimg.com
   - DOMAIN,ac.ybinst7.ec.yimg.com
   - DOMAIN,ac.ybinst8.ec.yimg.com
   - DOMAIN,ac.ybinst9.ec.yimg.com
   - DOMAIN,ybinst0.ec.yimg.com
   - DOMAIN,ybinst1.ec.yimg.com
   - DOMAIN,ybinst2.ec.yimg.com
-  - DOMAIN,ybinst3.ec.yimg.com #[Bing.WebBug]
+  - DOMAIN,ybinst3.ec.yimg.com
   - DOMAIN,ybinst4.ec.yimg.com
   - DOMAIN,ybinst5.ec.yimg.com
   - DOMAIN,ybinst6.ec.yimg.com
@@ -106866,11 +106866,11 @@ payload:
   - DOMAIN,yourstats.net
   - DOMAIN,www.yourstats.net
   - DOMAIN,l7.zedo.com
-  - DOMAIN,zedo.com #[WebBug]
+  - DOMAIN,zedo.com
   - DOMAIN,3650.tm.zedo.com
   - DOMAIN,ads.zedo.com
   - DOMAIN,c1.zedo.com
-  - DOMAIN,c2.zedo.com #[Tracking.Cookie]
+  - DOMAIN,c2.zedo.com
   - DOMAIN,c3.zedo.com
   - DOMAIN,c4.zedo.com
   - DOMAIN,c5.zedo.com
@@ -106898,12 +106898,12 @@ payload:
   - DOMAIN,ss7.zedo.com
   - DOMAIN,xads.zedo.com
   - DOMAIN,yads.zedo.com
-  - DOMAIN,www.zedo.com #[Adware.RaxSearch]
+  - DOMAIN,www.zedo.com
   - DOMAIN,rt.udmserve.net
   - DOMAIN,www.stickylogic.com
-  - DOMAIN,goatse.cx # More information on sites such as
-  - DOMAIN,www.goatse.cx # these can be found in this article
-  - DOMAIN,oralse.cx # en.wikipedia.org/wiki/List_of_shock_sites
+  - DOMAIN,goatse.cx
+  - DOMAIN,www.goatse.cx
+  - DOMAIN,oralse.cx
   - DOMAIN,www.oralse.cx
   - DOMAIN,goatse.ca
   - DOMAIN,www.goatse.ca
@@ -107087,7 +107087,7 @@ payload:
   - DOMAIN,ads345.com
   - DOMAIN,www.ads234.com
   - DOMAIN,www.ads345.com
-  - DOMAIN,media.fastclick.net # Likewise, this may interfere with some
+  - DOMAIN,media.fastclick.net
   - DOMAIN,006.freecounters.co.uk
   - DOMAIN,0stats.com
   - DOMAIN,123counter.mycomputer.com
@@ -107106,9 +107106,9 @@ payload:
   - DOMAIN,aboardamusement.com
   - DOMAIN,abscbn.spinbox.net
   - DOMAIN,adapi.ragapa.com
-  - DOMAIN,adelogs.adobe.com #See http://www.theregister.co.uk/2014/10/07/adobe_digital_editions_4_caught_snooping_into_ebook_collections_of_users/
+  - DOMAIN,adelogs.adobe.com
   - DOMAIN,ademails.com
-  - DOMAIN,adlog.com.com # Used by Ziff Davis to serve
+  - DOMAIN,adlog.com.com
   - DOMAIN,admin.iovation.com
   - DOMAIN,adpatrof.com
   - DOMAIN,ads.tiscali.it
@@ -107146,7 +107146,7 @@ payload:
   - DOMAIN,beacon-1.newrelic.com
   - DOMAIN,belierlaine.com
   - DOMAIN,benchemail.bmetrack.com
-  - DOMAIN,best-search.cc #spyware
+  - DOMAIN,best-search.cc
   - DOMAIN,beta.easy-hit-counters.com
   - DOMAIN,bigdata.adfuture.cn
   - DOMAIN,bigdata.adsunflower.com
@@ -107188,7 +107188,7 @@ payload:
   - DOMAIN,clicks.m4n.nl
   - DOMAIN,clicks.natwest.com
   - DOMAIN,clicks.rbs.co.uk
-  - DOMAIN,clickspring.net #used by a spyware product called PurityScan
+  - DOMAIN,clickspring.net
   - DOMAIN,clickstatsview.earnmoneycasinos.com
   - DOMAIN,clicktrack.onlineemailmarketing.com
   - DOMAIN,clicktrack.premium-shops.net
@@ -107300,9 +107300,9 @@ payload:
   - DOMAIN,counteraport.spylog.com
   - DOMAIN,counterbot.com
   - DOMAIN,countercrazy.com
-  - DOMAIN,counters.auctionhelper.com # comment these
-  - DOMAIN,counters.auctionwatch.com # out to allow
-  - DOMAIN,counters.auctiva.com # tracking by
+  - DOMAIN,counters.auctionhelper.com
+  - DOMAIN,counters.auctionwatch.com
+  - DOMAIN,counters.auctiva.com
   - DOMAIN,cw.nu
   - DOMAIN,cyberduck.fr
   - DOMAIN,cyseal.cyveillance.com
@@ -107316,7 +107316,7 @@ payload:
   - DOMAIN,de.sitestat.com
   - DOMAIN,def.dev-nano.com
   - DOMAIN,digistats.westjet.com
-  - DOMAIN,dimeprice.com # "spam bugs"
+  - DOMAIN,dimeprice.com
   - DOMAIN,dkb01.webtrekk.net
   - DOMAIN,dnsdelegation.io
   - DOMAIN,dotcomsecrets.com
@@ -107442,11 +107442,11 @@ payload:
   - DOMAIN,idm.hit.gemius.pl
   - DOMAIN,ieplugin.com
   - DOMAIN,iesnare.co.uk
-  - DOMAIN,iesnare.com # See http://www.codingthewheel.com/archives/online-gambling-privacy-iesnare
+  - DOMAIN,iesnare.com
   - DOMAIN,ilead.itrack.it
-  - DOMAIN,images.dailydiscounts.com # "spam bugs"
+  - DOMAIN,images.dailydiscounts.com
   - DOMAIN,images1.paycounter.com
-  - DOMAIN,impacts.alliancehub.com # "spam bugs"
+  - DOMAIN,impacts.alliancehub.com
   - DOMAIN,impit.tradedouble.com
   - DOMAIN,in.paycounter.com
   - DOMAIN,in.webcounter.cc
@@ -107485,8 +107485,8 @@ payload:
   - DOMAIN,lpcloudsvr302.com
   - DOMAIN,lycoscollect.realmedia.com
   - DOMAIN,m1.nedstatbasic.net
-  - DOMAIN,mailcheckisp.biz # "spam bugs"
-  - DOMAIN,mailfoogae.appspot.com # Streak email tracker
+  - DOMAIN,mailcheckisp.biz
+  - DOMAIN,mailfoogae.appspot.com
   - DOMAIN,mailtrack.me
   - DOMAIN,marketaff.com
   - DOMAIN,mature.xxxcounter.com
@@ -107578,7 +107578,7 @@ payload:
   - DOMAIN,s-39.predictvideo.com
   - DOMAIN,s.bl-1.com
   - DOMAIN,s.update.fbsbx.com
-  - DOMAIN,s.youtube.com # Blocking this will interfere with video watching history and may interfere with Google Podcasts
+  - DOMAIN,s.youtube.com
   - DOMAIN,s1-tracking.adalyser.com
   - DOMAIN,s1.shinystat.it
   - DOMAIN,s2.statcounter.com
@@ -107629,7 +107629,7 @@ payload:
   - DOMAIN,stat3.cybermonitor.com
   - DOMAIN,statcounter.com
   - DOMAIN,static.kibboko.com
-  - DOMAIN,static.smni.com # Santa Monica - popunders
+  - DOMAIN,static.smni.com
   - DOMAIN,statistics.elsevier.nl
   - DOMAIN,statistics.reedbusiness.nl
   - DOMAIN,statistics.theonion.com
@@ -107684,7 +107684,7 @@ payload:
   - DOMAIN,t.senaldos.com
   - DOMAIN,t.senaluno.com
   - DOMAIN,t.signaletre.com
-  - DOMAIN,t.signauxdeux.com # Another email opentracker from hubspot
+  - DOMAIN,t.signauxdeux.com
   - DOMAIN,t.update.fbsbx.com
   - DOMAIN,t.yesware.com
   - DOMAIN,targetnet.com
@@ -107880,7 +107880,7 @@ payload:
   - DOMAIN,warlog.info
   - DOMAIN,wau.tynt.com
   - DOMAIN,web4.realtracker.com
-  - DOMAIN,webbug.seatreport.com # web bugs
+  - DOMAIN,webbug.seatreport.com
   - DOMAIN,webcounter.com
   - DOMAIN,webcounter.goweb.de
   - DOMAIN,webcounter.together.net
@@ -107896,7 +107896,7 @@ payload:
   - DOMAIN,www.addtoany.com
   - DOMAIN,www.ademails.com
   - DOMAIN,www.affiliatesuccess.net
-  - DOMAIN,www.bar.ry2002.02-ry014.snpr.hotmx.hair.zaam.net # In spam
+  - DOMAIN,www.bar.ry2002.02-ry014.snpr.hotmx.hair.zaam.net
   - DOMAIN,www.belstat.nl
   - DOMAIN,www.betcounter.com
   - DOMAIN,www.bluestreak.com
@@ -107906,7 +107906,7 @@ payload:
   - DOMAIN,www.c2.thecounter.de
   - DOMAIN,www.cig-arrete.com
   - DOMAIN,www.clickclick.com
-  - DOMAIN,www.clickspring.net #used by a spyware product called PurityScan
+  - DOMAIN,www.clickspring.net
   - DOMAIN,www.connectionlead.com
   - DOMAIN,www.counter.bloke.com
   - DOMAIN,www.counter.superstats.com
@@ -107940,24 +107940,24 @@ payload:
   - DOMAIN,www.hitstats.co.uk
   - DOMAIN,www.iccee.com
   - DOMAIN,www.iesnare.co.uk
-  - DOMAIN,www.iesnare.com # See http://www.codingthewheel.com/archives/online-gambling-privacy-iesnare
+  - DOMAIN,www.iesnare.com
   - DOMAIN,www.iovation.co.uk
   - DOMAIN,www.iovation.com
   - DOMAIN,www.jellycounter.com
   - DOMAIN,www.lansrv050.com
   - DOMAIN,www.leadpub.com
   - DOMAIN,www.megacounter.de
-  - DOMAIN,www.metareward.com # web bugs in spam
+  - DOMAIN,www.metareward.com
   - DOMAIN,www.mnbasd77.com
   - DOMAIN,www.nedstat.com
   - DOMAIN,www.nextgenstats.com
   - DOMAIN,www.ntsearch.com
-  - DOMAIN,www.originalicons.com # installs IE extension
+  - DOMAIN,www.originalicons.com
   - DOMAIN,www.paycounter.com
   - DOMAIN,www.pointclicktrack.com
   - DOMAIN,www.precisioncounter.com
   - DOMAIN,www.printmail.biz
-  - DOMAIN,www.quantserve.com #: Ad Tracking, JavaScript, etc.
+  - DOMAIN,www.quantserve.com
   - DOMAIN,www.rightmedia.net
   - DOMAIN,www.rightstats.com
   - DOMAIN,www.searchadv.com
@@ -107973,7 +107973,7 @@ payload:
   - DOMAIN,www.toolbarcounter.com
   - DOMAIN,www.tradedoubler.com
   - DOMAIN,www.tradingtactics.win
-  - DOMAIN,www.trafficmagnet.net # web bugs in spam
+  - DOMAIN,www.trafficmagnet.net
   - DOMAIN,www.trafic.ro
   - DOMAIN,www.true-counter.com
   - DOMAIN,www.tynt.com
@@ -108006,7 +108006,7 @@ payload:
   - DOMAIN,105915624.com
   - DOMAIN,10tide.com
   - DOMAIN,1percent.fr
-  - DOMAIN,2006mindfreaklike.blogspot.com # Facebook trojan
+  - DOMAIN,2006mindfreaklike.blogspot.com
   - DOMAIN,2023cradep0sit.com
   - DOMAIN,20linutes.fr
   - DOMAIN,20mlinutes.fr
@@ -108078,7 +108078,7 @@ payload:
   - DOMAIN,aliecpress.fr
   - DOMAIN,aliexress.fr
   - DOMAIN,aljamaa.fr
-  - DOMAIN,allhqpics.com # Facebook trojan
+  - DOMAIN,allhqpics.com
   - DOMAIN,allkpop.fr
   - DOMAIN,allocnie.fr
   - DOMAIN,allogarages.fr
@@ -108237,7 +108237,7 @@ payload:
   - DOMAIN,brightonclick.com
   - DOMAIN,brokking.fr
   - DOMAIN,brostyles.fr
-  - DOMAIN,brunga.at # Facebook phishing attempt
+  - DOMAIN,brunga.at
   - DOMAIN,bt.webwise.org
   - DOMAIN,bundesanzeiger.fr
   - DOMAIN,burley.fr
@@ -108310,12 +108310,12 @@ payload:
   - DOMAIN,chaisesprivee.fr
   - DOMAIN,chaliehebdo.fr
   - DOMAIN,challeges.fr
-  - DOMAIN,changduk26.com # Facebook trojan
+  - DOMAIN,changduk26.com
   - DOMAIN,chatroll.fr
   - DOMAIN,chch.fr
   - DOMAIN,checkfreevideos.net
   - DOMAIN,checkout360now.net
-  - DOMAIN,chelick.net # Facebook trojan
+  - DOMAIN,chelick.net
   - DOMAIN,chienvoyageur.fr
   - DOMAIN,choisimoncode.fr
   - DOMAIN,chrliehebdo.fr
@@ -108475,7 +108475,7 @@ payload:
   - DOMAIN,emagicone.fr
   - DOMAIN,emplpoi-store.fr
   - DOMAIN,en.btc-trader-app.club
-  - DOMAIN,en.likefever.org # Facebook trojan
+  - DOMAIN,en.likefever.org
   - DOMAIN,enalytics.fr
   - DOMAIN,endicia.fr
   - DOMAIN,englishcentral.fr
@@ -108577,7 +108577,7 @@ payload:
   - DOMAIN,froling.bee.pl
   - DOMAIN,fromru.su
   - DOMAIN,ftdownload.com
-  - DOMAIN,fu.golikeus.net # Facebook trojan
+  - DOMAIN,fu.golikeus.net
   - DOMAIN,g2play.fr
   - DOMAIN,gabrielahlavack.samcart.com
   - DOMAIN,gadgetsytecnologia.com
@@ -108599,11 +108599,11 @@ payload:
   - DOMAIN,get24update.link4all.info
   - DOMAIN,getdispadsshop.com
   - DOMAIN,getnexuscard.com
-  - DOMAIN,gglcash4u.info # twitter worm
+  - DOMAIN,gglcash4u.info
   - DOMAIN,gifii.fr
   - DOMAIN,gigaonclick.com
   - DOMAIN,gimp.es
-  - DOMAIN,girlownedbypolicelike.blogspot.com # Facebook trojan
+  - DOMAIN,girlownedbypolicelike.blogspot.com
   - DOMAIN,giulli.fr
   - DOMAIN,glassjaw.fr
   - DOMAIN,globaldrugsurvey.fr
@@ -108641,7 +108641,7 @@ payload:
   - DOMAIN,hartamann.fr
   - DOMAIN,hashing.win
   - DOMAIN,hatdfg-rhgreh684.frge.io
-  - DOMAIN,hatrecord.ru # Facebook trojan
+  - DOMAIN,hatrecord.ru
   - DOMAIN,hcg82f2b.com
   - DOMAIN,healpublic.best
   - DOMAIN,hefever.fr
@@ -108677,7 +108677,7 @@ payload:
   - DOMAIN,how-tosolve.com
   - DOMAIN,howtobuildsoftware.com
   - DOMAIN,hradware.fr
-  - DOMAIN,hsb-canada.com # phishing site for hsbc.ca
+  - DOMAIN,hsb-canada.com
   - DOMAIN,https-ticketnotice.com
   - DOMAIN,huffingtopost.fr
   - DOMAIN,hunkemoeller.fr
@@ -108744,7 +108744,7 @@ payload:
   - DOMAIN,juliettehasagun.fr
   - DOMAIN,juliyea.sbs
   - DOMAIN,jump.ewoss.net
-  - DOMAIN,juste.ru # Twitter trojan
+  - DOMAIN,juste.ru
   - DOMAIN,juventuis.fr
   - DOMAIN,kabookk.fr
   - DOMAIN,kanojo.fr
@@ -108760,13 +108760,13 @@ payload:
   - DOMAIN,kiassure.fr
   - DOMAIN,kicherchekoi.fr
   - DOMAIN,kiclq.comfortykive.xyz
-  - DOMAIN,kirgo.at # Facebook phishing attempt
+  - DOMAIN,kirgo.at
   - DOMAIN,kitchenmagic.fr
   - DOMAIN,klefigaro.fr
   - DOMAIN,kleinfelder.fr
   - DOMAIN,klove.fr
   - DOMAIN,klowns4phun.com
-  - DOMAIN,konflow.com # Facebook trojan
+  - DOMAIN,konflow.com
   - DOMAIN,korodrogerie.fr
   - DOMAIN,kosatec.fr
   - DOMAIN,kplusd.far.ru
@@ -108863,10 +108863,10 @@ payload:
   - DOMAIN,lifeofpie.fr
   - DOMAIN,lifigaro.fr
   - DOMAIN,like.likewut.net
-  - DOMAIN,likeportal.com # Facebook trojan
-  - DOMAIN,likespike.com # Facebook trojan
-  - DOMAIN,likethis.mbosoft.com # Facebook trojan
-  - DOMAIN,likethislist.biz # Facebook trojan
+  - DOMAIN,likeportal.com
+  - DOMAIN,likespike.com
+  - DOMAIN,likethis.mbosoft.com
+  - DOMAIN,likethislist.biz
   - DOMAIN,lindependnant.fr
   - DOMAIN,lindependnt.fr
   - DOMAIN,lingintirejohny.club
@@ -109033,7 +109033,7 @@ payload:
   - DOMAIN,mydreamday.fr
   - DOMAIN,myedebred.fr
   - DOMAIN,myhst2024.com
-  - DOMAIN,mylike.co.uk # Facebook trojan
+  - DOMAIN,mylike.co.uk
   - DOMAIN,myprivateemails.com
   - DOMAIN,myquiz.fr
   - DOMAIN,myrogers-dashboard-signin.net
@@ -109228,7 +109228,7 @@ payload:
   - DOMAIN,profilenetflix.com
   - DOMAIN,profilenotice.info
   - DOMAIN,profit-btc.org
-  - DOMAIN,proflashdata.com # Facebook trojan
+  - DOMAIN,proflashdata.com
   - DOMAIN,proidees.fr
   - DOMAIN,projectpoi.com
   - DOMAIN,promogrim.fr
@@ -109321,7 +109321,7 @@ payload:
   - DOMAIN,scoietegenerale.fr
   - DOMAIN,scotiahelp-loginscotia.com
   - DOMAIN,scotiaonline-verification.com
-  - DOMAIN,scottishstuff-online.com # Canadian bank phishing site
+  - DOMAIN,scottishstuff-online.com
   - DOMAIN,screenaddict.thewhizproducts.com
   - DOMAIN,screencast-o-matic.fr
   - DOMAIN,scribbens.fr
@@ -109440,7 +109440,7 @@ payload:
   - DOMAIN,tahoesup.com
   - DOMAIN,tanieaukcje.com
   - DOMAIN,taniezakupy.pl
-  - DOMAIN,tattooshaha.info # Facebook trojan
+  - DOMAIN,tattooshaha.info
   - DOMAIN,tax-canada2023.co
   - DOMAIN,tbebestknives.fr
   - DOMAIN,teamsport-philipp.fr
@@ -109464,7 +109464,7 @@ payload:
   - DOMAIN,thebestone.click
   - DOMAIN,thebestwebpillplace.com
   - DOMAIN,thechive.fr
-  - DOMAIN,thedatesafe.com # Facebook trojan
+  - DOMAIN,thedatesafe.com
   - DOMAIN,themusicnetwork.co.uk
   - DOMAIN,thenewswire.fr
   - DOMAIN,thesimsresource.fr
@@ -109480,7 +109480,7 @@ payload:
   - DOMAIN,timberlande.fr
   - DOMAIN,tiplanet.fr
   - DOMAIN,toknowall.com
-  - DOMAIN,tomorrownewstoday.com # I'm not sure what it does, but it seems to be associated with a phishing attempt on Facebook
+  - DOMAIN,tomorrownewstoday.com
   - DOMAIN,toppillstore.com
   - DOMAIN,toprxshopplace.com
   - DOMAIN,toptypeonlinetheclicks.icu
@@ -109635,7 +109635,7 @@ payload:
   - DOMAIN,www.abetterinternet.com
   - DOMAIN,www.adblock.fr
   - DOMAIN,www.adshufffle.com
-  - DOMAIN,www.allhqpics.com # Facebook trojan
+  - DOMAIN,www.allhqpics.com
   - DOMAIN,www.anatol.com
   - DOMAIN,www.asianread.com
   - DOMAIN,www.audacity.es
@@ -109650,7 +109650,7 @@ payload:
   - DOMAIN,www.caramail.com
   - DOMAIN,www.celestia.es
   - DOMAIN,www.celestia.fr
-  - DOMAIN,www.chelick.net # Facebook trojan
+  - DOMAIN,www.chelick.net
   - DOMAIN,www.clearalgorithm.com
   - DOMAIN,www.clonezilla.es
   - DOMAIN,www.clonezilla.fr
@@ -109692,18 +109692,18 @@ payload:
   - DOMAIN,www.knowinteractive.com
   - DOMAIN,www.kpremium.com
   - DOMAIN,www.launchbuffer.com
-  - DOMAIN,www.likeportal.com # Facebook trojan
-  - DOMAIN,www.likespike.com # Facebook trojan
-  - DOMAIN,www.likethis.mbosoft.com # Facebook trojan
-  - DOMAIN,www.likethislist.biz # Facebook trojan
-  - DOMAIN,www.lomalindasda.org # Facebook trojan
+  - DOMAIN,www.likeportal.com
+  - DOMAIN,www.likespike.com
+  - DOMAIN,www.likethis.mbosoft.com
+  - DOMAIN,www.likethislist.biz
+  - DOMAIN,www.lomalindasda.org
   - DOMAIN,www.magento-analytics.com
   - DOMAIN,www.manoces.waw.pl
   - DOMAIN,www.mikras.nl
   - DOMAIN,www.minr.pw
   - DOMAIN,www.monkeyball.osa.pl
   - DOMAIN,www.mshelp247.weebly.com
-  - DOMAIN,www.mylike.co.uk # Facebook trojan
+  - DOMAIN,www.mylike.co.uk
   - DOMAIN,www.mylovecards.com
   - DOMAIN,www.notepad2.com
   - DOMAIN,www.novemberrainx.com
@@ -109719,13 +109719,13 @@ payload:
   - DOMAIN,www.portaldimensional.com
   - DOMAIN,www.ppoi.org
   - DOMAIN,www.presidency.site
-  - DOMAIN,www.proflashdata.com # Facebook trojan
+  - DOMAIN,www.proflashdata.com
   - DOMAIN,www.psychics-readings-for-free.com
   - DOMAIN,www.qbittorrent.com
   - DOMAIN,www.rickrolling.com
   - DOMAIN,www.russian-sex.com
   - DOMAIN,www.securityscan.us
-  - DOMAIN,www.shinilchurch.net # domain was hacked and had a trojan installed
+  - DOMAIN,www.shinilchurch.net
   - DOMAIN,www.simplyhelper.com
   - DOMAIN,www.sinera.org
   - DOMAIN,www.ssl2.in
@@ -109733,8 +109733,8 @@ payload:
   - DOMAIN,www.stopphoulplay.com
   - DOMAIN,www.swallowwire.sa.com
   - DOMAIN,www.tanger.com.br
-  - DOMAIN,www.tattooshaha.info # Facebook trojan
-  - DOMAIN,www.thedatesafe.com # Facebook trojan
+  - DOMAIN,www.tattooshaha.info
+  - DOMAIN,www.thedatesafe.com
   - DOMAIN,www.thunderbird.es
   - DOMAIN,www.trucktirehotline.com
   - DOMAIN,www.truecrypt.fr
@@ -109742,7 +109742,7 @@ payload:
   - DOMAIN,www.unetbootin.net
   - DOMAIN,www.unetbootin.org
   - DOMAIN,www.upgradebasic.com
-  - DOMAIN,www.upi6.pillsstore-c.com # Facebook trojan
+  - DOMAIN,www.upi6.pillsstore-c.com
   - DOMAIN,www.uqz.com
   - DOMAIN,www.urldelivery.com
   - DOMAIN,www.videolove.clanteam.com
@@ -116548,7 +116548,7 @@ payload:
   - DOMAIN,www.xxxnations.com
   - DOMAIN,www.xxxtoolbar.com
   - DOMAIN,www.yourfuckbook.com
-  - DOMAIN,123greetings.com # contains one link to distributor of adware or spyware
+  - DOMAIN,123greetings.com
   - DOMAIN,2000greetings.com
   - DOMAIN,celebwelove.com
   - DOMAIN,ecard4all.com
@@ -116556,7 +116556,7 @@ payload:
   - DOMAIN,freewebcards.com
   - DOMAIN,fukkad.com
   - DOMAIN,fun-e-cards.com
-  - DOMAIN,funnyreign.com # heavy spam (Site Advisor received 1075 e-mails/week)
+  - DOMAIN,funnyreign.com
   - DOMAIN,funsilly.com
   - DOMAIN,myfuncards.com
   - DOMAIN,www.cool-downloads.com
