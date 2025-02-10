@@ -36,7 +36,7 @@ jobs:
         }
 
     - name: Download domains file
-      run: curl -o domains https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad.txt
+      run: curl -o domains https://anti-ad.net/domains.txt
 
     - name: Convert to Mihomo rules yaml
       run: |
