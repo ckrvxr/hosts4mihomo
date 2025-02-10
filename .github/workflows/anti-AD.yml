@@ -54,7 +54,7 @@ jobs:
                 # Remove comments from the line
                 line = re.sub(r'\s*#.*', '', line)
                 if line:
-                    rules.append(f"  - DOMAIN,{line}")
+                    rules.append(f"  - DOMAIN-SUFFIX,{line}")
 
             with open(output_file, 'w') as f:
                 f.write("payload:\n")

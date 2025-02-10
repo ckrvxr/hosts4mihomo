@@ -74,7 +74,7 @@ jobs:
                 if match:
                     ip, domain = match.groups()
                     if (ip, domain) not in filter_entries:
-                        rules.append(f"  - DOMAIN,{domain}")
+                        rules.append(f"  - DOMAIN-SUFFIX,{domain}")
 
             with open(output_file, 'w') as f:
                 f.write("payload:\n")
