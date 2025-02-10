@@ -1,0 +1,95 @@
+name: anti-AD
+
+on:
+  schedule:
+    - cron: "10 22 * * *"
+  workflow_dispatch:
+
+jobs:
+  convert-domains:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install Mihomo
+      env:
+        DEBIAN_FRONTEND: noninteractive
+      run: |
+        case "$(uname -m)" in
+        'x86_64') ARCH='amd64' ;;
+        'x86' | 'i686' | 'i386') ARCH='386' ;;
+        'aarch64' | 'arm64') ARCH='arm64' ;;
+        'armv7l') ARCH='armv7' ;;
+        'riscv64') ARCH='riscv64' ;;
+        's390x') ARCH='s390x' ;;
+        *) ARCH='unknown' ;;
+        esac
+        echo "The architecture is: $ARCH"
+        [ "$ARCH" = 'unknown' ] || {
+          MIHOMO_VER=$(wget -q -O - 'https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt')
+          MIHOMO_URL='https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-linux-'$ARCH'-'$MIHOMO_VER'.deb'
+          wget -q -O ./mihomo.deb "$MIHOMO_URL"
+          sudo apt-get install ./mihomo.deb
+          rm -f ./mihomo.deb
+        }
+
+    - name: Download domains file
+      run: curl -o domains https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad.txt
+
+    - name: Convert to Mihomo rules yaml
+      run: |
+        python3 - <<EOF
+        import re
+        def convert_domains_to_yaml(domains_file, output_file):
+            with open(domains_file, 'r') as f:
+                lines = f.readlines()
+
+            rules = []
+            for line in lines:
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                # Remove comments from the line
+                line = re.sub(r'\s*#.*', '', line)
+                if line:
+                    rules.append(f"  - DOMAIN,{line}")
+
+            with open(output_file, 'w') as f:
+                f.write("payload:\n")
+                f.writelines("\n".join(rules))
+                f.write("\n")
+        convert_domains_to_yaml('domains', 'yaml')
+        EOF
+
+    - name: Compile to Mihomo rules Binary
+      run: |
+        if [ "$(which mihomo 2>/dev/null)"x = 'x' ]; then
+          echo 'mihomo not available.'
+        else
+          echo 'Compiling mihomo ruleset...'
+          mihomo convert-ruleset domain yaml ./yaml ./mrs
+        fi
+
+    - name: Create rules directory if not exists
+      run: mkdir -p rules
+
+    - name: Copy files to rules directory
+      run: |
+        cp yaml rules/anti-AD.yaml
+        cp mrs rules/anti-AD.mrs
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+        git add rules/anti-AD.yaml rules/anti-AD.mrs
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          current_date=$(date +'%Y-%m-%d')
+          git commit -m "Update rules from source on $current_date" -m "Update rules from source on $current_date"
+          git push
+        fi
