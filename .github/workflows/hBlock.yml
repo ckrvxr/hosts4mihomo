@@ -10,102 +10,101 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Install Mihomo
-      env:
-        DEBIAN_FRONTEND: noninteractive
-      run: |
-        case "$(uname -m)" in
-        'x86_64') ARCH='amd64' ;;
-        'x86' | 'i686' | 'i386') ARCH='386' ;;
-        'aarch64' | 'arm64') ARCH='arm64' ;;
-        'armv7l') ARCH='armv7' ;;
-        'riscv64') ARCH='riscv64' ;;
-        's390x') ARCH='s390x' ;;
-        *) ARCH='unknown' ;;
-        esac
-        echo "The architecture is: $ARCH"
-        [ "$ARCH" = 'unknown' ] || {
-          MIHOMO_VER=$(wget -q -O - 'https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt')
-          MIHOMO_URL='https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-linux-'$ARCH'-'$MIHOMO_VER'.deb'
-          wget -q -O ./mihomo.deb "$MIHOMO_URL"
-          sudo apt-get install ./mihomo.deb
-          rm -f ./mihomo.deb
-        }
+      - name: Install Mihomo
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          case "$(uname -m)" in
+          'x86_64') ARCH='amd64' ;;
+          'x86' | 'i686' | 'i386') ARCH='386' ;;
+          'aarch64' | 'arm64') ARCH='arm64' ;;
+          'armv7l') ARCH='armv7' ;;
+          'riscv64') ARCH='riscv64' ;;
+          's390x') ARCH='s390x' ;;
+          *) ARCH='unknown' ;;
+          esac
+          echo "The architecture is: $ARCH"
+          [ "$ARCH" = 'unknown' ] || {
+            MIHOMO_VER=$(wget -q -O - 'https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt')
+            MIHOMO_URL='https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-linux-'$ARCH'-'$MIHOMO_VER'.deb'
+            wget -q -O ./mihomo.deb "$MIHOMO_URL"
+            sudo apt-get install ./mihomo.deb
+            rm -f ./mihomo.deb
+          }
 
-    - name: Download hosts file
-      run: curl -o hosts https://hblock.molinero.dev/hosts
+      - name: Download hosts file
+        run: curl -o hosts https://hblock.molinero.dev/hosts
 
-    - name: Convert to Mihomo rules yaml
-      run: |
-        python3 - <<EOF
-        import re
-        def convert_hosts_to_yaml(hosts_file, output_file):
-            with open(hosts_file, 'r') as f:
-                lines = f.readlines()
+      - name: Convert to Mihomo rules yaml
+        run: |
+          python3 - <<EOF
+          import re
+          def convert_hosts_to_yaml(hosts_file, output_file):
+              with open(hosts_file, 'r') as f:
+                  lines = f.readlines()
 
-            filter_entries = {
-                ('127.0.0.1', 'localhost'),
-                ('255.255.255.255', 'broadcasthost'),
-                ('::1', 'localhost'),
-                ('::1', 'ip6-localhost'),
-                ('::1', 'ip6-loopback'),
-                ('fe00::0', 'ip6-localnet'),
-                ('ff00::0', 'ip6-mcastprefix'),
-                ('ff02::1', 'ip6-allnodes'),
-                ('ff02::2', 'ip6-allrouters'),
-                ('ff02::3', 'ip6-allhosts')
-            }
+              filter_entries = {
+                  '127.0.0.1': ['localhost'],
+                  '255.255.255.255': ['broadcasthost'],
+                  '::1': ['localhost', 'ip6-localhost', 'ip6-loopback'],
+                  'fe00::0': ['ip6-localnet'],
+                  'ff00::0': ['ip6-mcastprefix'],
+                  'ff02::1': ['ip6-allnodes'],
+                  'ff02::2': ['ip6-allrouters'],
+                  'ff02::3': ['ip6-allhosts']
+              }
 
-            rules = []
-            for line in lines:
-                line = line.strip()
-                if not line or line.startswith('#'):
-                    continue
-                # Remove comments from the line
-                line = re.sub(r'\s*#.*', '', line)
-                match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3}|[a-fA-F0-9:]+)\s+(.+)$', line)
-                if match:
-                    ip, domain = match.groups()
-                    if (ip, domain) not in filter_entries:
-                        rules.append(f"  - DOMAIN-SUFFIX,{domain}")
+              rules = []
+              for line in lines:
+                  line = line.strip()
+                  if not line or line.startswith('#'):
+                      continue
+                  # Remove comments from the line
+                  line = re.sub(r'\s*#.*', '', line)
+                  match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3}|[a-fA-F0-9:]+)\s+(.+)$', line)
+                  if match:
+                      ip, domain = match.groups()
+                      if domain not in filter_entries.get(ip, []):
+                          rules.append(f"  - DOMAIN-SUFFIX,{domain}")
 
-            with open(output_file, 'w') as f:
-                f.write("payload:\n")
-                f.writelines("\n".join(rules))
-                f.write("\n")
-        convert_hosts_to_yaml('hosts', 'yaml')
-        EOF
+              with open(output_file, 'w') as f:
+                  f.write("payload:\n")
+                  f.writelines("\n".join(rules))
+                  f.write("\n")
 
-    - name: Compile to Mihomo rules Binary
-      run: |
-        if [ "$(which mihomo 2>/dev/null)"x = 'x' ]; then
-          echo 'mihomo not available.'
-        else
-          echo 'Compiling mihomo ruleset...'
-          mihomo convert-ruleset domain yaml ./yaml ./mrs
-        fi
+          convert_hosts_to_yaml('hosts', 'yaml')
+          EOF
 
-    - name: Create rules directory if not exists
-      run: mkdir -p rules
+      - name: Compile to Mihomo rules Binary
+        run: |
+          if [ "$(which mihomo 2>/dev/null)"x = 'x' ]; then
+            echo 'mihomo not available.'
+          else
+            echo 'Compiling mihomo ruleset...'
+            mihomo convert-ruleset domain yaml ./yaml ./mrs
+          fi
 
-    - name: Copy files to rules directory
-      run: |
-        cp yaml rules/hBlock.yaml
-        cp mrs rules/hBlock.mrs
+      - name: Create rules directory if not exists
+        run: mkdir -p rules
 
-    - name: Commit and push changes
-      run: |
-        git config --local user.name "github-actions[bot]"
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-        git add rules/hBlock.yaml rules/hBlock.mrs
-        if git diff --cached --quiet; then
-          echo "No changes to commit"
-        else
-          current_date=$(date +'%Y-%m-%d')
-          git commit -m "Update rules from source on $current_date" -m "Update rules from source on $current_date"
-          git push
-        fi
+      - name: Copy files to rules directory
+        run: |
+          cp yaml rules/hBlock.yaml
+          cp mrs rules/hBlock.mrs
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git add rules/hBlock.yaml rules/hBlock.mrs
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            current_date=$(date +'%Y-%m-%d')
+            git commit -m "Update rules from source on $current_date" -m "Update rules from source on $current_date"
+            git push
+          fi
