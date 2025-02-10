@@ -42,10 +42,11 @@ jobs:
         run: |
           python3 - <<EOF
           import re
+          
           def convert_hosts_to_yaml(hosts_file, output_file):
               with open(hosts_file, 'r') as f:
                   lines = f.readlines()
-
+      
               filter_entries = {
                   '127.0.0.1': ['localhost'],
                   '255.255.255.255': ['broadcasthost'],
@@ -56,7 +57,7 @@ jobs:
                   'ff02::2': ['ip6-allrouters'],
                   'ff02::3': ['ip6-allhosts']
               }
-
+      
               rules = []
               for line in lines:
                   line = line.strip()
@@ -66,15 +67,17 @@ jobs:
                   line = re.sub(r'\s*#.*', '', line)
                   match = re.match(r'^(\d{1,3}(?:\.\d{1,3}){3}|[a-fA-F0-9:]+)\s+(.+)$', line)
                   if match:
-                      ip, domain = match.groups()
-                      if domain not in filter_entries.get(ip, []):
-                          rules.append(f"  - DOMAIN-SUFFIX,{domain}")
-
+                      ip, domains = match.groups()
+                      domains_list = domains.split()
+                      for domain in domains_list:
+                          if domain not in filter_entries.get(ip, []):
+                              rules.append(f"  - DOMAIN-SUFFIX,{domain}")
+      
               with open(output_file, 'w') as f:
                   f.write("payload:\n")
                   f.writelines("\n".join(rules))
                   f.write("\n")
-
+      
           convert_hosts_to_yaml('hosts', 'yaml')
           EOF
 
