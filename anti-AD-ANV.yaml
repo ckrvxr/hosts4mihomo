@@ -1,0 +1,15 @@
+payload:
+  - DOMAIN-SUFFIX,auth.wosms.cn
+  - DOMAIN-SUFFIX,config.cmpassport.com
+  - DOMAIN-SUFFIX,enrichgw.10010.com
+  - DOMAIN-SUFFIX,hmrz.wo.cn
+  - DOMAIN-SUFFIX,id.mail.wo.cn
+  - DOMAIN-SUFFIX,id6.me
+  - DOMAIN-SUFFIX,log.cmpassport.com
+  - DOMAIN-SUFFIX,log1.cmpassport.com
+  - DOMAIN-SUFFIX,mdn.open.wo.cn
+  - DOMAIN-SUFFIX,mob.com
+  - DOMAIN-SUFFIX,nishub1.10010.com
+  - DOMAIN-SUFFIX,opencloud.wostore.cn
+  - DOMAIN-SUFFIX,ye.dun.163yun.com
+
